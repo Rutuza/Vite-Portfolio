@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <Darkmode />
+      <Navbar></Navbar>
     </>
   )
 }
