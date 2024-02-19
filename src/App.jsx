@@ -1,13 +1,17 @@
 import './App.css'
-import Darkmode from './components/Darkmode'
-import Navbar from './components/Navbar'
+import './components/Navbar'
+import About from './pages/About'
+
+
 
 function App() {
   
 
   return (
     <>
-      <Navbar></Navbar>
+      {/* <Navbar /> */}
+      <About />
+      
     </>
   )
 }
