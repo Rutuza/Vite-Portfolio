@@ -4,7 +4,7 @@ import logo from "../assets/svg/logo.svg";
 
 function Navbar() {
   return (
-    <header className="sticky-top-0 flex justify-between items-center justify-items-center px-2 py-1 border-b-2 border-black">
+    <header className="sticky top-0 flex justify-between items-center justify-items-center px-2 py-1 border-b-2 border-black bg-white">
       <div>
         <img src={logo} alt="" srcset="" />
       </div>
