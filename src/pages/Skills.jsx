@@ -6,6 +6,9 @@ import cssLogo from '../assets/svg/Css 3.svg';
 import sassLogo from '../assets/svg/Sass.svg';
 import uiux from '../assets/svg/Figma.svg';
 import reactjsLogo from '../assets/svg/Atom.svg';
+import nodejs from '../assets/svg/Node js.svg';
+import programming from '../assets/svg/Programming.svg';
+import dbms from '../assets/svg/Database.svg';
 
 function Skills() {
   return (
@@ -22,27 +25,42 @@ function Skills() {
         </div>
       </div>
 
-      <section className='py-8 bg-gray-600 flex flex-wrap gap-28 items-center justify-center'>
+      <section className='py-8 mt-10 bg-gray-600 flex flex-wrap gap-28 items-center justify-center'>
         <div className='html'>
             <img src={html5Logo} alt="" />
-            <div className="tech-name">HTML</div>
+            <div className="mt-5 text-center text-white text-2xl ">HTML</div>
         </div>
         <div className='css'>
             <img src={cssLogo} alt="" />
-            <div className="tech-name">CSS</div>
+            <div className="mt-5 text-center text-white text-2xl ">CSS</div>
         </div>
         <div>
             <img src={sassLogo} alt="" />
-            <div>SASS</div>
+            <div className='mt-5 text-center text-white text-2xl '>SASS</div>
         </div>
         <div>
             <img src={uiux} alt="" />
-            <div>UI/UX Designing</div>
+            <div className='mt-5 text-center text-white text-2xl '>UI/UX Designing</div>
         </div>
 
         <div>
           <img src={reactjsLogo} alt="" srcset="" />
-          <div className='tech-name'>React JS</div>
+          <div className='mt-5 text-center text-white text-2xl '>React JS</div>
+        </div>
+
+        <div>
+          <img src={nodejs} alt="" srcset="" />
+          <div className='mt-5 text-center text-white text-2xl '>Node JS</div>
+        </div>
+
+        <div>
+          <img src={programming} alt="" srcset="" />
+          <div className='mt-5 text-center text-white text-2xl '>Programming</div>
+        </div>
+
+        <div>
+          <img src={dbms} alt="" srcset="" />
+          <div className='mt-5 text-center text-white text-2xl '>Database</div>
         </div>
 
       </section>
