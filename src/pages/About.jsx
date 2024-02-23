@@ -1,8 +1,10 @@
 import React from "react";
+import Navbar from "../components/Navbar";
 import pfp from "../assets/svg/pfp.svg";
 
 function About() {
   return (
+
     <div className="px-3">
       <center className="text-4xl font-bold italic m-5">About Me</center>
 
@@ -97,13 +99,13 @@ function About() {
               <div className="text-xl font-medium">
                 Under Graduation | <span className="text-violet-700 text-base">B.Tech - CSE</span>
               </div>
-              <div className="cgpa">
-              pursuing B. Tech. CSE at Amity University in Madhya Pradesh with a CGPA of 7.87 and SGPA of 8.5 as of the seventh semester.
+              <div className="text-justify mt-2">
+              I am graduating with a Bachelor's degree in Computer Science with a CGPA of 7.87 out of 10.00 as of the seventh semester. This CGPA reflects my strong work ethic, dedication to my studies, and readiness to pursue further academic and professional goals.
               </div>
             </div>
           </div>
 
-         {/* rd */}
+         {/* rd 12th*/}
 
           <div className="p-4 flex justify-between">  {/* rd */}
             <div className="font-medium">
@@ -114,8 +116,8 @@ function About() {
               <div className="text-xl font-medium">
                 Senior Secondary | <span className="text-violet-700 text-base">PCM</span>
               </div>
-              <div className="cgpa">
-              I received a divisional grade of 78.3% for my +2 in the 2019–2020 school year at RD Public School, Betul, Madhya Pradesh.
+              <div className="text-justify mt-2">
+              I achieved a senior secondary percentage of 78.3% under the CBSE curriculum. This result reflects my commitment to academic excellence and places me within the first division of my cohort. It underscores my capability to excel in rigorous academic environments and my readiness to pursue my goals in Science.
               </div>
             </div>
           </div>
@@ -129,10 +131,10 @@ function About() {
             </div>
             <div className="w-2/5">
               <div className="text-xl font-medium">
-                Higher Secondary | <span className="text-violet-700 text-base">PCM</span>
+                Higher Secondary | <span className="text-violet-700 text-base">All core subjects</span>
               </div>
-              <div className="cgpa">
-              I received a divisional grade of 72.4% for my matriculation in the 2017–2018 school year at Ryan International School, Bhopal, Madhya Pradesh.
+              <div className="text-justify mt-2">
+              I achieved a remarkable higher secondary percentage of 72.4% under the CBSE curriculum. This demonstrates my strong dedication to academic success. It highlights my strong analytical abilities and drive for success, traits that will be helpful to me as I work toward my objectives in my respective field.
 
               </div>
             </div>
@@ -158,17 +160,11 @@ function About() {
             </div>
             <div className="w-2/5">
               <div className="text-xl font-medium">
-                FullStack Developer Intern (MERN) | <span className="text-violet-700 text-base">Bangalore</span>
+                FullStack Developer Intern (MERN) 
               </div>
               <div className="text-justify mt-2">
-              Collaborated with front-end development team to 
-              implement highly responsive and intuitive web 
-              interfaces resulting in a 45% reduction in bounce 
-              rate and a 30% increase in user engagement 
-              metrics. Gained hands-on experience in optimizing website 
-              performance and ensuring cross-browser 
-              compatibility. Assisted in converting wireframes and designs into functional web components using HTML, CSS and 
-              JavaScript. 
+              Worked on building web applications using the 
+              MERN stack. Developed RESTful APIs and integrated them with the frontend components. Contributed to database design, data modelling, and efficient data storage using MongoDB.
               </div>
             </div>
           </div>
@@ -182,11 +178,17 @@ function About() {
             </div>
             <div className="w-2/5">
               <div className="text-xl font-medium">
-                Frontend Developer Intern | <span className="text-violet-700 text-base">Bangalore</span>
+                Frontend Developer Intern
               </div>
               <div className="text-justify mt-2">
-              Worked on building web applications using the 
-              MERN stack. Developed RESTful APIs and integrated them with the frontend components. Contributed to database design, data modelling, and efficient data storage using MongoDB. 
+              Collaborated with front-end development team to 
+              implement highly responsive and intuitive web 
+              interfaces resulting in a 45% reduction in bounce 
+              rate and a 30% increase in user engagement 
+              metrics. Gained hands-on experience in optimizing website 
+              performance and ensuring cross-browser 
+              compatibility. Assisted in converting wireframes and designs into functional web components using HTML, CSS and 
+              JavaScript. 
               </div>
             </div>
           </div>
