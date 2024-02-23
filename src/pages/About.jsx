@@ -79,9 +79,9 @@ function About() {
 {/* Education section */}
 
       <section className="mt-20"> 
-        <div className="flex justify-center items-center">
-          <div className="text-4xl font-medium">Education</div>
-          <div className="mx-2 w-full h-0 border-2 border-black"></div>
+        <div className="flex items-center">
+          <div className="text-4xl font-medium text-left">Education</div>
+          <div className="mx-2 w-full h-0 border-2 border-black"></div> 
         </div>
 
         <div className="m-0 text-violet-700 text-base md:text-right">The journey where it all started</div>
@@ -91,7 +91,7 @@ function About() {
           <div className="p-4 flex justify-between"> {/* amity*/}
             <div className="font-medium">
               <div className="text-xl">Amity university, gwalior</div>
-              <div className="year">2020 - Present</div>
+              <div className="text-violet-700">2020 - Present</div>
             </div>
             <div className="w-2/5">
               <div className="text-xl font-medium">
@@ -108,7 +108,7 @@ function About() {
           <div className="p-4 flex justify-between">  {/* rd */}
             <div className="font-medium">
               <div className="text-xl">RD Public school, Betul (M.P)</div>
-              <div className="year">2018 - 2020</div>
+              <div className="text-violet-700">2018 - 2020</div>
             </div>
             <div className="w-2/5">
               <div className="text-xl font-medium">
@@ -125,7 +125,7 @@ function About() {
           <div className="p-4 flex justify-between">  {/* ryan */}
             <div className="font-medium">
               <div className="text-xl">Ryan International School, Bhopal (M.P)</div>
-              <div className="year">2017 - 2018</div>
+              <div className="text-violet-700">2017 - 2018</div>
             </div>
             <div className="w-2/5">
               <div className="text-xl font-medium">
@@ -143,6 +143,56 @@ function About() {
 
       {/* Experience section */}
 
+      <section className="mt-10 py-12">
+      <div className="flex items-center">
+          <div className="text-4xl font-medium text-left">Experience</div>
+          <div className="mx-2 w-full h-0 border-2 border-black"></div> 
+        </div>
+
+        <div className="mt-5 bg-gray-200 rounded-lg "> {/* container*/}
+
+          <div className="p-4 flex justify-between"> {/* MERN internship*/}
+            <div className="font-medium">
+              <div className="text-xl">Nullclass Ed Tech, Bangalore</div>
+              <div className="text-violet-700">07 Jul - 30 Nov 2023</div>
+            </div>
+            <div className="w-2/5">
+              <div className="text-xl font-medium">
+                FullStack Developer Intern (MERN) | <span className="text-violet-700 text-base">Bangalore</span>
+              </div>
+              <div className="text-justify mt-2">
+              Collaborated with front-end development team to 
+              implement highly responsive and intuitive web 
+              interfaces resulting in a 45% reduction in bounce 
+              rate and a 30% increase in user engagement 
+              metrics. Gained hands-on experience in optimizing website 
+              performance and ensuring cross-browser 
+              compatibility. Assisted in converting wireframes and designs into functional web components using HTML, CSS and 
+              JavaScript. 
+              </div>
+            </div>
+          </div>
+
+         {/* teachnook */}
+
+          <div className="p-4 flex justify-between">  {/* teachnook internship*/}
+            <div className="font-medium">
+              <div className="text-xl">Teachnook Ed Tech, Bangalore</div>
+              <div className="text-violet-700">01 Jul - 31 Sep 2022</div>
+            </div>
+            <div className="w-2/5">
+              <div className="text-xl font-medium">
+                Frontend Developer Intern | <span className="text-violet-700 text-base">Bangalore</span>
+              </div>
+              <div className="text-justify mt-2">
+              Worked on building web applications using the 
+              MERN stack. Developed RESTful APIs and integrated them with the frontend components. Contributed to database design, data modelling, and efficient data storage using MongoDB. 
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </section>
 
     </div>
   );
