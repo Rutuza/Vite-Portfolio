@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../assets/svg/logo.svg";
-
+import { RxHamburgerMenu } from "react-icons/rx";
 
 function Navbar() {
   return (
@@ -9,9 +9,9 @@ function Navbar() {
         <img src={logo} alt="" srcset="" />
       </div>
 
-      <div className="flex gap-10 text-base justify-items-center items-center">
+      <div className="relative flex gap-10 text-base justify-items-center items-center">
         <nav>
-          <ul className="flex gap-5 font-semibold">
+          <ul className="absolute left-1/2 transform">
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Skills</a></li>
@@ -19,7 +19,7 @@ function Navbar() {
             <li><a href="#">Contact</a></li>
           </ul>
         </nav>
-        <button>toggle</button>
+        <button className="sm:hidden block"><RxHamburgerMenu className="h-8 w-8"/></button>
       </div>
     </header>
   );
