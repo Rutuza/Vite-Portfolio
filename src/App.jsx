@@ -11,10 +11,10 @@ function App() {
 
   return (
     <>
-      {/* <Navbar></Navbar> */}
+      <Navbar></Navbar>
       
-      {/* <About /> */}
-      <Skills />
+      {/* <About />
+      <Skills /> */}
       
     </>
   )

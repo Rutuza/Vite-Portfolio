@@ -9,9 +9,9 @@ function Navbar() {
         <img src={logo} alt="" srcset="" />
       </div>
 
-      <div className=" flex gap-10 text-base justify-between items-center">
+      <div className="justify-between items-center">
         <nav>
-          <ul className="absolute left-1/2 transform ">
+          <ul className="sm:absolute left-1/2 text-lg font-semibold">
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Skills</a></li>
