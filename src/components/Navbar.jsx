@@ -8,19 +8,18 @@ function Navbar() {
       <div>
         <img src={logo} alt="" srcset="" />
       </div>
-
-      <div className="justify-between items-center">
+  
         <nav>
-          <ul className="sm:absolute left-1/2 text-lg font-semibold">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="#">Contact</a></li>
+          <ul className="md:flex items-center z-[-1]">
+            <li className="mx-4 my-6 md:my-0"><a href="#" className="text-xl hover:text-red-500 duration-400">Home</a></li>
+            <li className="mx-4 my-6 md:my-0"><a href="#" className="text-xl hover:text-red-500 duration-400">About</a></li>
+            <li className="mx-4 my-6 md:my-0"><a href="#" className="text-xl hover:text-red-500 duration-400">Skills</a></li>
+            <li className="mx-4 my-6 md:my-0"><a href="#" className="text-xl hover:text-red-500 duration-400">Work</a></li>
+            <li className="mx-4 my-6 md:my-0"><a href="#" className="text-xl hover:text-red-500 duration-400">Contact</a></li>
           </ul>
         </nav>
         <button className="sm:hidden block"><RxHamburgerMenu className="h-8 w-8"/></button>
-      </div>
+      
     </header>
   );
 }
