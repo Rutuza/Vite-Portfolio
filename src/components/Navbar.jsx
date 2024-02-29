@@ -1,26 +1,41 @@
-import React from "react";
-import logo from "../assets/svg/logo.svg";
-import { RxHamburgerMenu } from "react-icons/rx";
+import React, { useState } from 'react';
+import logo from '../assets/svg/logo.svg';
+import { RxCross2 } from "react-icons/rx";
 
 function Navbar() {
+  const[isVisible, setIsVisible] = useState(false);
   return (
-    <header className="sticky top-0 flex justify-between items-center justify-items-center px-2 py-1 border-b-2 border-black bg-white">
-      <div>
-        <img src={logo} alt="" srcset="" />
-      </div>
-  
-        <nav>
-          <ul className="md:flex items-center z-[-1]">
-            <li className="mx-4 my-6 md:my-0"><a href="#" className="text-xl hover:text-red-500 duration-400">Home</a></li>
-            <li className="mx-4 my-6 md:my-0"><a href="#" className="text-xl hover:text-red-500 duration-400">About</a></li>
-            <li className="mx-4 my-6 md:my-0"><a href="#" className="text-xl hover:text-red-500 duration-400">Skills</a></li>
-            <li className="mx-4 my-6 md:my-0"><a href="#" className="text-xl hover:text-red-500 duration-400">Work</a></li>
-            <li className="mx-4 my-6 md:my-0"><a href="#" className="text-xl hover:text-red-500 duration-400">Contact</a></li>
-          </ul>
+    <div>
+      <header className='relative'>
+        <nav className='p-2 flex justify-between items-center border-b-2 border-gray-900'>
+
+          <div>
+            <img src={logo} alt="" />
+          </div>
+
+            <div className={`max-sm:absolute top-0 -left-0 py-5 w-full h-48 duration-700 ease-in-out bg-[#1D1C1C] text-white flex justify-around ${isVisible && ' -translate-y-[300%]'} `}>
+              <ul className='flex items-center gap-4 font-semibold max-sm:flex-wrap max-sm:gap-x-0 w-4/5 '>
+                <li className='w-1/3'><a href="#">Home</a></li>
+                <li className='w-1/3'><a href="#">About</a></li>
+                <li className='w-1/3'><a href="#">Skills</a></li>
+                <li className='w-1/3'><a href="#">Work</a></li>
+                <li className='w-1/3'><a href="#">Contact</a></li>
+              </ul>
+              <div><RxCross2 className='w-5 h-5' onClick={() => {setIsVisible(!isVisible)}}/></div>
+
+            </div>
+            
+          
+
+            <div onClick={() => {setIsVisible(!isVisible)}} className='sm:hidden'>
+              <div className='w-8 h-1.5 m-2 border rounded bg-black'></div>
+              <div className='w-8 h-1.5 m-2 border rounded bg-black'></div>
+              <div className='w-8 h-1.5 m-2 border rounded bg-black'></div>
+            
+            </div>
         </nav>
-        <button className="sm:hidden block"><RxHamburgerMenu className="h-8 w-8"/></button>
-      
-    </header>
+      </header>
+    </div>
   );
 }
 
