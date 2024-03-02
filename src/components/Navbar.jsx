@@ -14,7 +14,7 @@ function Navbar() {
           </div>
 
             <div className={`max-sm:absolute top-0 -left-0 py-5 w-full max-sm:h-48 duration-700 ease-in-out max-sm:text-white max-sm:bg-warmGray flex justify-around sm:justify-end sm:translate-y-0 ${isVisible && ' -translate-y-[300%]'} `}>
-              <ul className='flex items-center sm:justify-end sm:gap-8 gap-4 font-semibold max-sm:flex-wrap max-sm:gap-x-0 w-4/5 '>
+              <ul className='flex items-center sm:justify-end sm:gap-8 gap-4 font-semibold max-sm:flex-wrap max-sm:gap-x-0 w-4/5 font-pop'>
                 <li className='max-sm:w-1/3'><a href="#">Home</a></li>
                 <li className='max-sm:w-1/3'><a href="#">About</a></li>
                 <li className='max-sm:w-1/3'><a href="#">Skills</a></li>
