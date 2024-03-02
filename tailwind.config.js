@@ -6,6 +6,10 @@ export default {
       colors: {
         warmGray:'#1D1C1C',  
       }, 
+      fontFamily: {
+        pop: "Poppins"
+      }, 
+
       screens: {
         sm: "640px",
         md: "768px",
