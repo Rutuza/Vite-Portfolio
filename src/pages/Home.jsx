@@ -10,7 +10,7 @@ function Home() {
 });
   
   return (
-    <div className='bg-violet-400 p-6'>
+    <div className='p-6'>
       <div className='lg:flex lg:items-center lg:justify-between lg:px-8 max-sm:grid max-sm:gap-10'>
         <div className='font-pop'>
           <h1 className='font-semibold text-3xl sm:text-5xl max-sm:text-2xl'>Hello !</h1>
