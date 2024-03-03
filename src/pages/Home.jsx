@@ -1,27 +1,27 @@
 import React from 'react';
-import ellipse from '../assets/svg/ellipse.svg';
-import { useTypewriter, Cursor } from "react-simple-typewriter";
+import circles from '../assets/svg/ellipse.svg'
+import { useTypewriter, Cursor } from 'react-simple-typewriter';
 
 function Home() {
-  const [text] = useTypewriter(
-    {
-      words: ['Jyotika Dalal', 'Developer', 'Designer'],
-      loop: 0,
-    }
-  )
+  const [text] = useTypewriter({
+    words: ['Jyotika Dalal', 'Developer', 'UI/UX Designer', 'Photographer'],
+    loop: {},
+    typeSpeed: 122,
+});
+  
   return (
-    <div className='m-8 font-pop max-sm:mt-28 md:justify-center md:items-center md:p-10'>
-      <div className="max-sm:grid max-sm:gap-y-12 flex flex-wrap justify-between items-center lg:block">
-        <div className="text-content">
-          <h1 className='font-bold text-5xl max-sm:text-3xl max-md:p-4'>Hello ! <br />
-          I am <span>{text}</span><Cursor cursorColor='#936BE8' /></h1>
-
-          <h6 className='w-60 text-lg max-sm:text-xs max-md:text-sm max-md:pl-4 max-md:w-64'>Design and code what you think</h6>
+    <div className='bg-violet-400 p-6'>
+      <div className='lg:flex lg:items-center lg:justify-between lg:px-8 max-sm:grid max-sm:gap-10'>
+        <div className='font-pop'>
+          <h1 className='font-semibold text-3xl sm:text-5xl max-sm:text-2xl'>Hello !</h1>
+          <h1 className='font-semibold text-3xl sm:text-5xl max-sm:text-2xl'>I am <span>{text}</span></h1>
+          <p className='py-2 text-sm max-sm:text-xs'>Design and code what you think</p>
         </div>
-        <div className="max-lg:m-10 md:mt-20">
-          <img src={ellipse} alt=""/>
+        <div className=''>
+          <img src={circles} alt="" />
         </div>
       </div>
+
     </div>
   );
 }
