@@ -8,15 +8,15 @@ function About() {
     <div className="px-3">
       <center className="text-4xl font-bold italic m-5">About Me</center>
 
-      <section className="flex justify-between items-center mt-20">
+      <section className="flex max-w-54 justify-between">
         <div className="pfp">
           <img src={pfp} alt="" srcset="" />
         </div>
 
-        <div className="flex gap-5 text-lg text-justify w-3/6">
+        <div className="flex gap-5 text-lg text-justify">
           <div className="text-violet-500">"</div>
           <div>
-            <div className="mt-10">
+            <div className="mt-10 w-1/2">
               I am a Final year, Computer Science student at Amity University
               Madhya Pradesh, Gwalior. I have strong passion for Web
               Development, UI/UX Designing and Database. I get to combine my
