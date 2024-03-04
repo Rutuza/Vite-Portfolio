@@ -14,13 +14,13 @@ function About() {
     <div className="px-3">
       <center className="text-4xl font-bold italic m-5">About Me</center>
 
-      <section className="max-sm:text-justify max-sm:p-3">
+      <section className="max-sm:text-justify max-sm:p-3 font-pop lg:flex lg:justify-between lg:items-center">
         <div className="max-sm:py-6 max-sm:my-5">
           <img src={pfp} alt="" srcset="" />
         </div>
 
-        <div className="font-pop max-sm:grid max-sm:grid-flow-row max-sm:justify-center max-sm:items-center">
-          <div className="content">
+        <div className="font-pop max-sm:grid max-sm:grid-flow-row max-sm:justify-center max-sm:items-center sm:py-8 lg:w-1/2 lg:gap-2">
+          <div className="sm:text-justify">
             I am a Final year, Computer Science student at Amity University
             Madhya Pradesh, Gwalior. I have strong passion for Web
             Development, UI/UX Designing and Database. I get to combine my
@@ -40,7 +40,7 @@ function About() {
             </ul>
           </div>
           <div>
-            <button type="button" className="font-bold w-1/2 bg-black text-violet-400 text-center hover:bg-transparent hover:text-violet-900  hover:font-medium hover:border-black hover:border-2 border rounded-md p-2 max-sm:m-auto max-sm:block max-sm:w-3/4">Download CV</button>
+            <button type="button" className="block m-auto font-bold w-1/2 bg-black text-violet-400 text-center hover:bg-transparent hover:text-violet-900  hover:font-medium hover:border-black hover:border-2 border rounded-md p-2 max-sm:w-3/4">Download CV</button>
           </div>
         </div>
 
@@ -48,23 +48,23 @@ function About() {
 
 {/* Education section */}
 
-      <section className="max-sm:relative"> 
-        <div className="flex items-center">
+      <section className="relative font-pop" > 
+        <div className="flex items-center max-sm:relative">
           <div className="text-4xl font-medium text-left max-sm:text-3xl">Education</div>
           <div className="mx-2 w-full h-0 border-2 border-black "></div> 
         </div>
 
-        <div className="m-0 text-violet-700 text-base max-sm:float-right max-sm:text-xs max-sm:absolute max-sm:right-2 max-sm:top-6">The journey where it all started</div>
+        {/* <div className="m-0 text-violet-700 text-base max-sm:float-right max-sm:text-xs max-sm:absolute max-sm:right-2 max-sm:top-0">The journey where it all started</div> */}
         
         <div className="mt-5 bg-gray-200 rounded-lg"> {/* container*/}
 
-          <div className="p-4 flex justify-between max-sm:grid max-sm:grid-flow-row max-sm:gap-4 "> {/* amity*/}
-            <div className="font-medium">
+          <div className="p-4 justify-between grid grid-flow-row max-sm:grid max-sm:grid-flow-row max-sm:gap-4 sm:grid sm:grid-flow-row sm:gap-4 md:flex md:flex-row md:justify-between"> {/* amity*/}
+            <div className="font-semibold">
               <div className="text-xl max-sm:text-2xl">Amity university, gwalior</div>
               <div className="text-violet-700">2020 - Present</div>
             </div>
-            <div className="w-2/5 max-sm:w-fit">
-              <div className="text-xl font-medium">
+            <div className="w-2/5 max-sm:w-fit sm:w-fit md:w-1/2">
+              <div className="text-xl font-semibold">
                 Under Graduation | <span className="text-violet-700 text-base">B.Tech - CSE</span>
               </div>
               <div className="text-justify mt-2">
@@ -75,13 +75,13 @@ function About() {
 
          {/* rd 12th*/}
 
-          <div className="p-4 flex justify-between max-sm:grid max-sm:grid-flow-row max-sm:gap-4">  {/* rd */}
-            <div className="font-medium">
+          <div className="p-4 flex justify-between max-sm:grid max-sm:grid-flow-row max-sm:gap-4 sm:grid sm:grid-flow-row sm:gap-4 md:flex md:flex-row md:justify-between">  {/* rd */}
+            <div className="font-semibold">
               <div className="text-xl max-sm:text-2xl">RD Public school, Betul (M.P)</div>
               <div className="text-violet-700">2018 - 2020</div>
             </div>
-            <div className="w-2/5 max-sm:w-fit">
-              <div className="text-xl font-medium">
+            <div className="w-2/5 max-sm:w-fit sm:w-fit md:w-1/2">
+              <div className="text-xl font-semibold">
                 Senior Secondary | <span className="text-violet-700 text-base">PCM</span>
               </div>
               <div className="text-justify mt-2">
@@ -92,13 +92,13 @@ function About() {
 
           {/* ryan */}
 
-          <div className="p-4 flex justify-between max-sm:grid max-sm:grid-flow-row max-sm:gap-4">  {/* ryan */}
-            <div className="font-medium">
+          <div className="p-4 flex justify-between max-sm:grid max-sm:grid-flow-row max-sm:gap-4 sm:grid sm:grid-flow-row sm:gap-4 md:flex md:flex-row md:justify-between">  {/* ryan */}
+            <div className="font-semibold">
               <div className="text-xl max-sm:text-2xl">Ryan International School, Bhopal (M.P)</div>
               <div className="text-violet-700">2017 - 2018</div>
             </div>
-            <div className="w-2/5 max-sm:w-fit">
-              <div className="text-xl font-medium">
+            <div className="w-2/5 max-sm:w-fit sm:w-fit md:w-1/2">
+              <div className="text-xl font-semibold">
                 Higher Secondary | <span className="text-violet-700 text-base">All core subjects</span>
               </div>
               <div className="text-justify mt-2">
@@ -113,21 +113,21 @@ function About() {
 
       {/* Experience section */}
 
-      <section className="py-12">
+      <section className="py-12 font-pop">
       <div className="flex items-center">
-          <div className="text-4xl font-medium text-left">Experience</div>
+          <div className="text-4xl font-semibold text-left">Experience</div>
           <div className="mx-2 w-full h-0 border-2 border-black"></div> 
         </div>
 
         <div className="mt-5 bg-gray-200 rounded-lg "> {/* container*/}
 
-          <div className="p-4 flex justify-between max-sm:grid max-sm:grid-flow-row max-sm:gap-4"> {/* MERN internship*/}
-            <div className="font-medium">
+          <div className="p-4 flex justify-between max-sm:grid max-sm:grid-flow-row max-sm:gap-4 sm:grid sm:grid-flow-row sm:gap-4 md:flex md:flex-row md:justify-between"> {/* MERN internship*/}
+            <div className="font-semibold">
               <div className="text-xl">Nullclass Ed Tech, Bangalore</div>
               <div className="text-violet-700">07 Jul - 30 Nov 2023</div>
             </div>
-            <div className="w-2/5 max-sm:w-fit">
-              <div className="text-xl font-medium">
+            <div className="w-2/5 max-sm:w-fit sm:w-fit md:w-1/2">
+              <div className="text-xl font-semibold">
                 FullStack Developer Intern (MERN) 
               </div>
               <div className="text-justify mt-2">
@@ -139,13 +139,13 @@ function About() {
 
          {/* teachnook */}
 
-          <div className="p-4 flex justify-between max-sm:grid max-sm:grid-flow-row max-sm:gap-4">  {/* teachnook internship*/}
-            <div className="font-medium">
+          <div className="p-4 flex justify-between max-sm:grid max-sm:grid-flow-row max-sm:gap-4 sm:grid sm:grid-flow-row sm:gap-4 md:flex md:flex-row md:justify-between">  {/* teachnook internship*/}
+            <div className="font-semibold">
               <div className="text-xl">Teachnook Ed Tech, Bangalore</div>
               <div className="text-violet-700">01 Jul - 31 Sep 2022</div>
             </div>
-            <div className="w-2/5 max-sm:w-fit">
-              <div className="text-xl font-medium">
+            <div className="w-2/5 max-sm:w-fit sm:w-fit md:w-1/2">
+              <div className="text-xl font-semibold">
                 Frontend Developer Intern
               </div>
               <div className="text-justify mt-2">
