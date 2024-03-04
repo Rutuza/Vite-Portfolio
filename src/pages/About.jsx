@@ -48,7 +48,7 @@ function About() {
 
 {/* Education section */}
 
-      <section className="mt-20 max-sm:relative"> 
+      <section className="max-sm:relative"> 
         <div className="flex items-center">
           <div className="text-4xl font-medium text-left max-sm:text-3xl">Education</div>
           <div className="mx-2 w-full h-0 border-2 border-black "></div> 
@@ -58,12 +58,12 @@ function About() {
         
         <div className="mt-5 bg-gray-200 rounded-lg"> {/* container*/}
 
-          <div className="p-4 flex justify-between"> {/* amity*/}
+          <div className="p-4 flex justify-between max-sm:grid max-sm:grid-flow-row max-sm:gap-4 "> {/* amity*/}
             <div className="font-medium">
-              <div className="text-xl">Amity university, gwalior</div>
+              <div className="text-xl max-sm:text-2xl">Amity university, gwalior</div>
               <div className="text-violet-700">2020 - Present</div>
             </div>
-            <div className="w-2/5">
+            <div className="w-2/5 max-sm:w-fit">
               <div className="text-xl font-medium">
                 Under Graduation | <span className="text-violet-700 text-base">B.Tech - CSE</span>
               </div>
@@ -75,12 +75,12 @@ function About() {
 
          {/* rd 12th*/}
 
-          <div className="p-4 flex justify-between">  {/* rd */}
+          <div className="p-4 flex justify-between max-sm:grid max-sm:grid-flow-row max-sm:gap-4">  {/* rd */}
             <div className="font-medium">
-              <div className="text-xl">RD Public school, Betul (M.P)</div>
+              <div className="text-xl max-sm:text-2xl">RD Public school, Betul (M.P)</div>
               <div className="text-violet-700">2018 - 2020</div>
             </div>
-            <div className="w-2/5">
+            <div className="w-2/5 max-sm:w-fit">
               <div className="text-xl font-medium">
                 Senior Secondary | <span className="text-violet-700 text-base">PCM</span>
               </div>
@@ -92,12 +92,12 @@ function About() {
 
           {/* ryan */}
 
-          <div className="p-4 flex justify-between">  {/* ryan */}
+          <div className="p-4 flex justify-between max-sm:grid max-sm:grid-flow-row max-sm:gap-4">  {/* ryan */}
             <div className="font-medium">
-              <div className="text-xl">Ryan International School, Bhopal (M.P)</div>
+              <div className="text-xl max-sm:text-2xl">Ryan International School, Bhopal (M.P)</div>
               <div className="text-violet-700">2017 - 2018</div>
             </div>
-            <div className="w-2/5">
+            <div className="w-2/5 max-sm:w-fit">
               <div className="text-xl font-medium">
                 Higher Secondary | <span className="text-violet-700 text-base">All core subjects</span>
               </div>
@@ -113,7 +113,7 @@ function About() {
 
       {/* Experience section */}
 
-      <section className="mt-10 py-12">
+      <section className="py-12">
       <div className="flex items-center">
           <div className="text-4xl font-medium text-left">Experience</div>
           <div className="mx-2 w-full h-0 border-2 border-black"></div> 
@@ -121,12 +121,12 @@ function About() {
 
         <div className="mt-5 bg-gray-200 rounded-lg "> {/* container*/}
 
-          <div className="p-4 flex justify-between"> {/* MERN internship*/}
+          <div className="p-4 flex justify-between max-sm:grid max-sm:grid-flow-row max-sm:gap-4"> {/* MERN internship*/}
             <div className="font-medium">
               <div className="text-xl">Nullclass Ed Tech, Bangalore</div>
               <div className="text-violet-700">07 Jul - 30 Nov 2023</div>
             </div>
-            <div className="w-2/5">
+            <div className="w-2/5 max-sm:w-fit">
               <div className="text-xl font-medium">
                 FullStack Developer Intern (MERN) 
               </div>
@@ -139,12 +139,12 @@ function About() {
 
          {/* teachnook */}
 
-          <div className="p-4 flex justify-between">  {/* teachnook internship*/}
+          <div className="p-4 flex justify-between max-sm:grid max-sm:grid-flow-row max-sm:gap-4">  {/* teachnook internship*/}
             <div className="font-medium">
               <div className="text-xl">Teachnook Ed Tech, Bangalore</div>
               <div className="text-violet-700">01 Jul - 31 Sep 2022</div>
             </div>
-            <div className="w-2/5">
+            <div className="w-2/5 max-sm:w-fit">
               <div className="text-xl font-medium">
                 Frontend Developer Intern
               </div>
