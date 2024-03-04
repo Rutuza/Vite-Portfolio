@@ -14,12 +14,12 @@ function About() {
     <div className="px-3">
       <center className="text-4xl font-bold italic m-5">About Me</center>
 
-      <section className="max-sm:text-justify ">
+      <section className="max-sm:text-justify max-sm:p-3">
         <div className="max-sm:py-6 max-sm:my-5">
           <img src={pfp} alt="" srcset="" />
         </div>
 
-        <div className="font-pop p-3 max-sm:grid max-sm:grid-flow-row max-sm:justify-center max-sm:items-center">
+        <div className="font-pop max-sm:grid max-sm:grid-flow-row max-sm:justify-center max-sm:items-center">
           <div className="content">
             I am a Final year, Computer Science student at Amity University
             Madhya Pradesh, Gwalior. I have strong passion for Web
@@ -48,13 +48,13 @@ function About() {
 
 {/* Education section */}
 
-      <section className="mt-20"> 
+      <section className="mt-20 max-sm:relative"> 
         <div className="flex items-center">
-          <div className="text-4xl font-medium text-left">Education</div>
-          <div className="mx-2 w-full h-0 border-2 border-black"></div> 
+          <div className="text-4xl font-medium text-left max-sm:text-3xl">Education</div>
+          <div className="mx-2 w-full h-0 border-2 border-black "></div> 
         </div>
 
-        <div className="m-0 text-violet-700 text-base md:text-right">The journey where it all started</div>
+        <div className="m-0 text-violet-700 text-base max-sm:float-right max-sm:text-xs max-sm:absolute max-sm:right-2 max-sm:top-6">The journey where it all started</div>
         
         <div className="mt-5 bg-gray-200 rounded-lg"> {/* container*/}
 
