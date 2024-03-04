@@ -2,80 +2,48 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import pfp from "../assets/svg/pfp.svg";
 
+import { ImLinkedin } from "react-icons/im";
+import { ImGithub } from "react-icons/im";
+import { RiInstagramFill } from "react-icons/ri";
+import { ImBehance2 } from "react-icons/im";
+
+
 function About() {
   return (
 
     <div className="px-3">
       <center className="text-4xl font-bold italic m-5">About Me</center>
 
-      <section className="flex max-w-54 justify-between">
-        <div className="pfp">
+      <section className="max-sm:text-justify ">
+        <div className="max-sm:py-6 max-sm:my-5">
           <img src={pfp} alt="" srcset="" />
         </div>
 
-        <div className="flex gap-5 text-lg text-justify">
-          <div className="text-violet-500">"</div>
+        <div className="font-pop p-3 max-sm:grid max-sm:grid-flow-row max-sm:justify-center max-sm:items-center">
+          <div className="content">
+            I am a Final year, Computer Science student at Amity University
+            Madhya Pradesh, Gwalior. I have strong passion for Web
+            Development, UI/UX Designing and Database. I get to combine my
+            love for technology with my passion for art and design. I enjoy
+            using my creativity and problem-solving skills to create digital
+            experiences that do not only look great but also work seamlessly
+            for the user. I believe that continuous learning is the key to
+            success and I’m always on the lookout for fresh challenges to keep
+            me motivated and engaged.
+          </div>
+          <div className="py-5">
+            <ul>
+              <li className="font-semibold py-1">Name: <span className="font-light">Jyotika Dalal</span></li>
+              <li className="font-semibold py-1">Phone: <span className="font-light">(+91)-8319278208</span></li>
+              <li className="font-semibold py-1">E-mail: <span className="font-light">dalal.jyotika05@gmail.com</span></li>
+              <li className="font-semibold py-1">Address: <span className="font-light">Prabhatam Heights, Raisen road, Bhopal (M.P), 462022, India</span></li>
+            </ul>
+          </div>
           <div>
-            <div className="mt-10 w-1/2">
-              I am a Final year, Computer Science student at Amity University
-              Madhya Pradesh, Gwalior. I have strong passion for Web
-              Development, UI/UX Designing and Database. I get to combine my
-              love for technology with my passion for art and design. I enjoy
-              using my creativity and problem-solving skills to create digital
-              experiences that do not only look great but also work seamlessly
-              for the user. I believe that continuous learning is the key to
-              success and I’m always on the lookout for fresh challenges to keep
-              me motivated and engaged.
-              <div className="mt-10">
-                <div className="name">
-                  <b>Name: </b>Jyotika Dalal
-                </div>
-                <div className="py-2">
-                  <b>Phone: </b>(+91) 8319278208
-                </div>
-                <div className="py-0">
-                  <b>E-mail: </b>dalal.jyotika@05gmail.com
-                </div>
-                <div className="py-2">
-                  <b>Address: </b>Prabhatam heights, Raisen road, Bhopal (M.P),
-                  India
-                </div>
-
-                <div className="flex gap-2">
-                  <b>Social: </b>
-                  <span>
-                    <ul className="flex gap-4">
-                      <li>
-                        <a href="https://www.linkedin.com/in/jyotika-dalal-2bb242240/">
-                          Linkedin
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://github.com/Rutuza">Github</a>
-                      </li>
-                      <li>
-                        <a href="#">Instagram</a>
-                      </li>
-                      <li>
-                        <a href="#">Dribble</a>
-                      </li>
-                      <li>
-                        <a href="#">Behance</a>
-                      </li>
-                    </ul>
-                  </span>
-                </div>
-
-                <button
-                  type="button"
-                  className="mt-10 w-2/5 bg-black text-violet-400 hover:bg-transparent hover:text-violet-900  hover:font-medium hover:border-black hover:border-2 border rounded-md p-2 "
-                >
-                  Download CV
-                </button>
-              </div>
-            </div>
+            <button type="button" className="font-bold w-1/2 bg-black text-violet-400 text-center hover:bg-transparent hover:text-violet-900  hover:font-medium hover:border-black hover:border-2 border rounded-md p-2 max-sm:m-auto max-sm:block max-sm:w-3/4">Download CV</button>
           </div>
         </div>
+
       </section>
 
 {/* Education section */}
