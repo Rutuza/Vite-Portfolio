@@ -11,7 +11,7 @@ import { ImBehance2 } from "react-icons/im";
 function About() {
   return (
 
-    <div className="px-3">
+    <div className="p-10">
       <center className="text-4xl font-bold italic m-5">About Me</center>
 
       <section className="max-sm:text-justify max-sm:p-3 font-pop lg:flex lg:justify-between lg:items-center">
@@ -19,7 +19,7 @@ function About() {
           <img src={pfp} alt="" srcset="" />
         </div>
 
-        <div className="font-pop max-sm:grid max-sm:grid-flow-row max-sm:justify-center max-sm:items-center sm:py-8 lg:w-1/2 lg:gap-2">
+        <div className="font-pop max-sm:grid max-sm:grid-flow-row max-sm:justify-center max-sm:items-center sm:py-8 lg:w-1/2 lg:gap-2 lg:text-base">
           <div className="sm:text-justify">
             I am a Final year, Computer Science student at Amity University
             Madhya Pradesh, Gwalior. I have strong passion for Web
@@ -40,7 +40,7 @@ function About() {
             </ul>
           </div>
           <div>
-            <button type="button" className="block m-auto font-bold w-1/2 bg-black text-violet-400 text-center hover:bg-transparent hover:text-violet-900  hover:font-medium hover:border-black hover:border-2 border rounded-md p-2 max-sm:w-3/4">Download CV</button>
+            <button type="button" className="max-sm:block max-sm:m-auto sm:block sm:m-auto font-bold w-1/2 bg-black text-violet-400 text-center hover:bg-transparent hover:text-violet-900  hover:font-medium hover:border-black hover:border-2 border rounded-md p-3 max-sm:w-3/4">Download CV</button>
           </div>
         </div>
 
@@ -48,7 +48,7 @@ function About() {
 
 {/* Education section */}
 
-      <section className="relative font-pop" > 
+      <section className="font-pop py-16" > 
         <div className="flex items-center max-sm:relative">
           <div className="text-4xl font-medium text-left max-sm:text-3xl">Education</div>
           <div className="mx-2 w-full h-0 border-2 border-black "></div> 
@@ -115,7 +115,7 @@ function About() {
 
       <section className="py-12 font-pop">
       <div className="flex items-center">
-          <div className="text-4xl font-semibold text-left">Experience</div>
+          <div className="text-4xl font-medium text-left">Experience</div>
           <div className="mx-2 w-full h-0 border-2 border-black"></div> 
         </div>
 

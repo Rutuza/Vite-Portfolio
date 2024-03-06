@@ -16,7 +16,7 @@ function App() {
   return (
     <>
       <div id='root'>
-        {/* <Router>
+        <Router>
           <Navbar />
 
           <Routes>
@@ -26,8 +26,8 @@ function App() {
             <Route path='/work' element={<Work />} />
           </Routes>
 
-        </Router> */}
-          <Footer />
+        </Router>
+          {/* <Footer /> */}
       </div>
       
       
