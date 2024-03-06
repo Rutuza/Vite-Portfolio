@@ -6,16 +6,17 @@ import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import About from './pages/About'
 import Skills from './pages/Skills'
+import Work from './pages/Work'
+import Footer from './components/Footer'
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-import Work from './pages/Work'
 
 function App() {
 
   return (
     <>
       <div id='root'>
-        <Router>
+        {/* <Router>
           <Navbar />
 
           <Routes>
@@ -24,7 +25,9 @@ function App() {
             <Route path='/skills' element={<Skills />}/>
             <Route path='/work' element={<Work />} />
           </Routes>
-        </Router>
+
+        </Router> */}
+          <Footer />
       </div>
       
       
