@@ -2,6 +2,11 @@ import React from 'react';
 import circles from '../assets/svg/ellipse.svg'
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 
+import { ImLinkedin } from "react-icons/im";
+import { VscGithubInverted } from "react-icons/vsc";
+import { RiInstagramFill } from "react-icons/ri";
+import { FaBehance } from "react-icons/fa";
+
 function Home() {
   const [text] = useTypewriter({
     words: ['Jyotika Dalal', 'Developer', 'UI/UX Designer', 'Photographer'],
@@ -21,6 +26,17 @@ function Home() {
           <img src={circles} alt="" />
         </div>
       </div>
+
+      <div className="px-6 font-pop font-semibold flex items-center gap-4">
+        <span>Follow me on: </span>
+        <ul className='flex gap-4'>
+          <li><a href="#" target='_blank'><ImLinkedin /></a></li>
+          <li><a href="#" target='_blank'></a><VscGithubInverted /></li>
+          <li><a href="#" target='_blank'></a><RiInstagramFill /></li>
+          <li><a href="#" target='_blank'></a><FaBehance /></li>
+        </ul>
+      </div>
+
 
     </div>
   );
