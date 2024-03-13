@@ -11,7 +11,7 @@ import { ImBehance2 } from "react-icons/im";
 function About() {
   return (
 
-    <div className="p-10">
+    <div className="max-sm:p-2">
       <center className="text-4xl font-bold italic m-5">About Me</center>
 
       <section className="max-sm:text-justify max-sm:p-3 font-pop lg:flex lg:justify-between lg:items-center">
@@ -19,7 +19,7 @@ function About() {
           <img src={pfp} alt="" srcset="" />
         </div>
 
-        <div className="font-pop max-sm:grid max-sm:grid-flow-row max-sm:justify-center max-sm:items-center sm:py-8 lg:w-1/2 lg:gap-2 lg:text-base">
+        <div className="relative font-pop max-sm:grid max-sm:grid-flow-row max-sm:justify-center max-sm:items-center sm:py-8 lg:w-1/2 lg:gap-2 lg:text-base">
           <div className="sm:text-justify">
             I am a Final year, Computer Science student at Amity University
             Madhya Pradesh, Gwalior. I have strong passion for Web
@@ -40,7 +40,7 @@ function About() {
             </ul>
           </div>
           <div>
-            <button type="button" className="max-sm:block max-sm:m-auto sm:block sm:m-auto font-bold w-1/2 bg-black text-violet-400 text-center hover:bg-transparent hover:text-violet-900  hover:font-medium hover:border-black hover:border-2 border rounded-md p-3 max-sm:w-3/4">Download CV</button>
+            <button type="button" className="max-sm:block max-sm:m-auto sm:block sm:m-auto font-bold w-1/2 bg-black text-violet-400 text-center hover:bg-transparent hover:text-violet-900  hover:font-medium hover:border-black hover:border-2 border rounded-md p-3 max-sm:w-3/4 lg:absolute lg:left-0">Download CV</button>
           </div>
         </div>
 
@@ -56,18 +56,18 @@ function About() {
 
         {/* <div className="m-0 text-violet-700 text-base max-sm:float-right max-sm:text-xs max-sm:absolute max-sm:right-2 max-sm:top-0">The journey where it all started</div> */}
         
-        <div className="mt-5 bg-gray-200 rounded-lg"> {/* container*/}
+        <div className="mt-5 lg:bg-gray-200 rounded-lg max-sm:grid max-sm:grid-flow-row max-sm:gap-10"> {/* container*/}
 
-          <div className="p-4 justify-between grid grid-flow-row max-sm:grid max-sm:grid-flow-row max-sm:gap-4 sm:grid sm:grid-flow-row sm:gap-4 md:flex md:flex-row md:justify-between"> {/* amity*/}
+          <div className="p-2 relative justify-between grid grid-flow-row max-sm:grid max-sm:grid-flow-row max-sm:gap-2 sm:grid sm:grid-flow-row sm:gap-4 md:flex md:flex-row md:justify-between max-sm:bg-gray-200 max-sm:rounded max-sm:h-[42vh]"> {/* amity*/}
             <div className="font-semibold">
-              <div className="text-xl max-sm:text-2xl">Amity university, gwalior</div>
-              <div className="text-violet-700">2020 - Present</div>
+              <div className="text-xl max-sm:text-base">Amity university Madhya Pradesh (AUMP), Gwalior</div>
+              <div className="text-violet-700 max-sm:text-xs max-sm:absolute max-sm:right-0 max-sm:bottom-2 max-sm:px-2">2020 - Present</div>
             </div>
             <div className="w-2/5 max-sm:w-fit sm:w-fit md:w-1/2">
-              <div className="text-xl font-semibold">
-                Under Graduation | <span className="text-violet-700 text-base">B.Tech - CSE</span>
+              <div className="text-xl font-semibold max-sm:absolute max-sm:bottom-7 max-sm:right-0 max-sm:text-xs max-sm:px-2 ">
+                Under Graduation | <span className="text-violet-700 text max-sm:text-xs-base">B.Tech - CSE</span>
               </div>
-              <div className="text-justify mt-2">
+              <div className="text-justify max-sm:text-sm">
               I am graduating with a Bachelor's degree in Computer Science with a CGPA of 7.87 out of 10.00 as of the seventh semester. This CGPA reflects my strong work ethic, dedication to my studies, and readiness to pursue further academic and professional goals.
               </div>
             </div>
@@ -75,16 +75,16 @@ function About() {
 
          {/* rd 12th*/}
 
-          <div className="p-4 flex justify-between max-sm:grid max-sm:grid-flow-row max-sm:gap-4 sm:grid sm:grid-flow-row sm:gap-4 md:flex md:flex-row md:justify-between">  {/* rd */}
+          <div className="p-2 relative justify-between grid grid-flow-row max-sm:grid max-sm:grid-flow-row max-sm:gap-2 sm:grid sm:grid-flow-row sm:gap-4 md:flex md:flex-row md:justify-between max-sm:bg-gray-200 max-sm:rounded max-sm:h-[42vh]">  {/* rd */}
             <div className="font-semibold">
-              <div className="text-xl max-sm:text-2xl">RD Public school, Betul (M.P)</div>
-              <div className="text-violet-700">2018 - 2020</div>
+              <div className="text-xl max-sm:text-base">RD Public school, Betul (M.P)</div>
+              <div className="text-violet-700 max-sm:text-xs max-sm:absolute max-sm:right-0 max-sm:bottom-2 max-sm:px-2">2018 - 2020</div>
             </div>
             <div className="w-2/5 max-sm:w-fit sm:w-fit md:w-1/2">
-              <div className="text-xl font-semibold">
-                Senior Secondary | <span className="text-violet-700 text-base">PCM</span>
+              <div className="text-xl font-semibold max-sm:absolute max-sm:bottom-7 max-sm:right-0 max-sm:text-xs max-sm:px-2 ">
+                Senior Secondary | <span className="text-violet-700 text-base max-sm:text-xs">PCM</span>
               </div>
-              <div className="text-justify mt-2">
+              <div className="text-justify max-sm:text-sm">
               I achieved a senior secondary percentage of 78.3% under the CBSE curriculum. This result reflects my commitment to academic excellence and places me within the first division of my cohort. It underscores my capability to excel in rigorous academic environments and my readiness to pursue my goals in Science.
               </div>
             </div>
@@ -92,16 +92,16 @@ function About() {
 
           {/* ryan */}
 
-          <div className="p-4 flex justify-between max-sm:grid max-sm:grid-flow-row max-sm:gap-4 sm:grid sm:grid-flow-row sm:gap-4 md:flex md:flex-row md:justify-between">  {/* ryan */}
-            <div className="font-semibold">
-              <div className="text-xl max-sm:text-2xl">Ryan International School, Bhopal (M.P)</div>
-              <div className="text-violet-700">2017 - 2018</div>
+          <div className="p-2 relative justify-between grid grid-flow-row max-sm:grid max-sm:grid-flow-row max-sm:gap-2 sm:grid sm:grid-flow-row sm:gap-4 md:flex md:flex-row md:justify-between max-sm:bg-gray-200 max-sm:rounded max-sm:h-[42vh]">  {/* ryan */}
+            <div className="font font-semibold">
+              <div className="text-xl max-sm:text-base">Ryan International School, Bhopal (M.P)</div>
+              <div className="text-violet-700 max-sm:text-xs max-sm:absolute max-sm:right-0 max-sm:bottom-2 max-sm:px-2">2017 - 2018</div>
             </div>
             <div className="w-2/5 max-sm:w-fit sm:w-fit md:w-1/2">
-              <div className="text-xl font-semibold">
-                Higher Secondary | <span className="text-violet-700 text-base">All core subjects</span>
+              <div className="text-xl font-semibold max-sm:absolute max-sm:bottom-7 max-sm:right-0 max-sm:text-xs max-sm:px-2 ">
+                Higher Secondary | <span className="text-violet-700 text-base max-sm:text-xs">All core subjects</span>
               </div>
-              <div className="text-justify mt-2">
+              <div className="text-justify max-sm:text-sm">
               I achieved a remarkable higher secondary percentage of 72.4% under the CBSE curriculum. This demonstrates my strong dedication to academic success. It highlights my strong analytical abilities and drive for success, traits that will be helpful to me as I work toward my objectives in my respective field.
 
               </div>
@@ -113,50 +113,46 @@ function About() {
 
       {/* Experience section */}
 
-      <section className="py-12 font-pop">
-      <div className="flex items-center">
-          <div className="text-4xl font-medium text-left">Experience</div>
-          <div className="mx-2 w-full h-0 border-2 border-black"></div> 
+
+      <section className="font-pop py-16" > 
+        <div className="flex items-center max-sm:relative">
+          <div className="text-4xl font-medium text-left max-sm:text-3xl">Experience</div>
+          <div className="mx-2 w-full h-0 border-2 border-black "></div> 
         </div>
 
-        <div className="mt-5 bg-gray-200 rounded-lg "> {/* container*/}
+        {/* <div className="m-0 text-violet-700 text-base max-sm:float-right max-sm:text-xs max-sm:absolute max-sm:right-2 max-sm:top-0">The journey where it all started</div> */}
+        
+        {/* container*/}
+        <div className="mt-5 lg:bg-gray-200 rounded-lg max-sm:grid max-sm:grid-flow-row max-sm:gap-10"> 
 
-          <div className="p-4 flex justify-between max-sm:grid max-sm:grid-flow-row max-sm:gap-4 sm:grid sm:grid-flow-row sm:gap-4 md:flex md:flex-row md:justify-between"> {/* MERN internship*/}
+        {/* nullclass */}
+        <div className="p-2 relative justify-between grid grid-flow-row max-sm:grid max-sm:grid-flow-row max-sm:gap-2 sm:grid sm:grid-flow-row sm:gap-4 md:flex md:flex-row md:justify-between max-sm:bg-gray-200 max-sm:rounded max-sm:h-[42vh]"> 
             <div className="font-semibold">
-              <div className="text-xl">Nullclass Ed Tech, Bangalore</div>
-              <div className="text-violet-700">07 Jul - 30 Nov 2023</div>
+              <div className="text-xl max-sm:text-base">FullStack Development Intern, TamilNadu</div>
+              <div className="text-violet-700 max-sm:text-xs max-sm:absolute max-sm:right-0 max-sm:bottom-2 max-sm:px-2">07 Jul - 30 Nov 2023</div>
             </div>
             <div className="w-2/5 max-sm:w-fit sm:w-fit md:w-1/2">
-              <div className="text-xl font-semibold">
-                FullStack Developer Intern (MERN) 
+              <div className="text-xl font-semibold max-sm:absolute max-sm:bottom-7 max-sm:right-0 max-sm:text-xs max-sm:px-2 ">
+                Nullclass Ed. Tech | <span className="text-violet-700 text-base max-sm:text-xs">MERN</span>
               </div>
-              <div className="text-justify mt-2">
-              Worked on building web applications using the 
-              MERN stack. Developed RESTful APIs and integrated them with the frontend components. Contributed to database design, data modelling, and efficient data storage using MongoDB.
+              <div className="text-justify max-sm:text-sm">
+              I achieved a senior secondary percentage of 78.3% under the CBSE curriculum. This result reflects my commitment to academic excellence and places me within the first division of my cohort. It underscores my capability to excel in rigorous academic environments and my readiness to pursue my goals in Science.
               </div>
             </div>
           </div>
 
-         {/* teachnook */}
-
-          <div className="p-4 flex justify-between max-sm:grid max-sm:grid-flow-row max-sm:gap-4 sm:grid sm:grid-flow-row sm:gap-4 md:flex md:flex-row md:justify-between">  {/* teachnook internship*/}
+         {/* teachnook*/}
+          <div className="p-2 relative justify-between grid grid-flow-row max-sm:grid max-sm:grid-flow-row max-sm:gap-2 sm:grid sm:grid-flow-row sm:gap-4 md:flex md:flex-row md:justify-between max-sm:bg-gray-200 max-sm:rounded max-sm:h-[42vh]"> {/* teachnook*/}
             <div className="font-semibold">
-              <div className="text-xl">Teachnook Ed Tech, Bangalore</div>
-              <div className="text-violet-700">01 Jul - 31 Sep 2022</div>
+              <div className="text-xl max-sm:text-base">Frontend Development Intern, Bangalore</div>
+              <div className="text-violet-700 max-sm:text-xs max-sm:absolute max-sm:right-0 max-sm:bottom-2 max-sm:px-2">07 Jul - 31 Sep 2022</div>
             </div>
             <div className="w-2/5 max-sm:w-fit sm:w-fit md:w-1/2">
-              <div className="text-xl font-semibold">
-                Frontend Developer Intern
+              <div className="text-xl font-semibold max-sm:absolute max-sm:bottom-7 max-sm:right-0 max-sm:text-xs max-sm:px-2 ">
+                Teachnook Ed. Tech | <span className="text-violet-700 text max-sm:text-xs-base">HTML, CSS3, SASS, JavaScript</span>
               </div>
-              <div className="text-justify mt-2">
-              Collaborated with front-end development team to 
-              implement highly responsive and intuitive web 
-              interfaces resulting in a 45% reduction in bounce 
-              rate and a 30% increase in user engagement 
-              metrics. Gained hands-on experience in optimizing website 
-              performance and ensuring cross-browser 
-              compatibility. Assisted in converting wireframes and designs into functional web components using HTML, CSS and 
-              JavaScript. 
+              <div className="text-justify max-sm:text-sm">
+              I am graduating with a Bachelor's degree in Computer Science with a CGPA of 7.87 out of 10.00 as of the seventh semester. This CGPA reflects my strong work ethic, dedication to my studies, and readiness to pursue further academic and professional goals.
               </div>
             </div>
           </div>
