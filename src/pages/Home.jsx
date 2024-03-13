@@ -50,7 +50,8 @@ function Home() {
             <img src={circles} alt="" srcset="" />
           </div>
         </div>
-        {/* <div className='font-pop w-full py-10 flex items-center gap-4 max-sm:justify-center max-sm:text-base max-sm:font-semibold sm:justify-center lg:absolute'>
+
+        <div className='py-3 flex flex-row items-center gap-4 font-pop font-semibold max-sm:pt-4 max-sm:flex max-sm:justify-center max-sm:text-sm sm:justify-center sm:pt-5 lg:absolute lg:left-12 lg:bottom-0'>
           <span>Follow me on: </span>
           <ul className='flex gap-4'>
             <li><a href="#" target='_blank'><ImLinkedin /></a></li>
@@ -58,7 +59,7 @@ function Home() {
             <li><a href="#" target='_blank'></a><RiInstagramFill /></li>
             <li><a href="#" target='_blank'></a><FaBehance /></li>
           </ul>
-        </div> */}
+        </div>
       </div>
     </>
   );

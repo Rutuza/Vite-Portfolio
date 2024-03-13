@@ -25,13 +25,10 @@ function Navbar() {
 
             </div>
             
-          
-
-            <div onClick={() => {setIsVisible(!isVisible)}} className='sm:hidden'>
+            <div onClick={() => {setIsVisible(!isVisible)}} className='sm:hidden max-sm:hidden'>
               <div className='w-8 h-1.5 m-2 border rounded bg-black'></div>
               <div className='w-8 h-1.5 m-2 border rounded bg-black'></div>
-              <div className='w-8 h-1.5 m-2 border rounded bg-black'></div>
-            
+              <div className='w-8 h-1.5 m-2 border rounded bg-black'></div> 
             </div>
         </nav>
       </header>
