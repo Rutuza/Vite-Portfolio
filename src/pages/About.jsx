@@ -6,12 +6,13 @@ import { ImLinkedin } from "react-icons/im";
 import { ImGithub } from "react-icons/im";
 import { RiInstagramFill } from "react-icons/ri";
 import { ImBehance2 } from "react-icons/im";
+import { HiDownload } from "react-icons/hi";
 
 
 function About() {
   return (
 
-    <div className="max-sm:p-2">
+    <div className="max-sm:p-2 p-4">
       <center className="text-4xl font-bold italic m-5">About Me</center>
 
       <section className="max-sm:text-justify max-sm:p-3 font-pop lg:flex lg:justify-between lg:items-center">
@@ -39,9 +40,14 @@ function About() {
               <li className="font-semibold py-1">Address: <span className="font-light">Prabhatam Heights, Raisen road, Bhopal (M.P), 462022, India</span></li>
             </ul>
           </div>
-          <div>
-            <button type="button" className="max-sm:block max-sm:m-auto sm:block sm:m-auto font-bold w-1/2 bg-black text-violet-400 text-center hover:bg-transparent hover:text-violet-900  hover:font-medium hover:border-black hover:border-2 border rounded-md p-3 max-sm:w-3/4 lg:absolute lg:left-0">Download CV</button>
-          </div>
+          {/* <div>
+            <button type="button" className="max-sm:block max-sm:m-auto sm:block sm:m-auto font-bold w-1/2 text-violet-400 text-center hover:bg-transparent hover:text-violet-900  hover:font-medium hover:border-black hover:border-2 border rounded-md p-3 max-sm:w-3/4 lg:absolute lg:left-0"><span><HiDownload /></span><div>Download CV</div></button>
+          </div> */}
+
+          <button type="button" className="p-4 max-sm:block max-sm:m-auto sm:block sm:m-auto font-bold w-1/2 text-violet-400 text-center bg-gray-900 hover:bg-transparent hover:text-violet-900  hover:font-medium hover:border-black hover:border-2 border rounded-md max-sm:w-3/4 lg:absolute lg:left-0 xl:flex xl:items-center xl:justify-center xl:gap-4">
+            <div><HiDownload /></div>
+            <div className="text-sm">DOWNLOAD CV</div>
+          </button>
         </div>
 
       </section>
@@ -67,7 +73,7 @@ function About() {
               <div className="text-xl font-semibold max-sm:absolute max-sm:bottom-7 max-sm:right-0 max-sm:text-xs max-sm:px-2 ">
                 Under Graduation | <span className="text-violet-700 text max-sm:text-xs-base">B.Tech - CSE</span>
               </div>
-              <div className="text-justify max-sm:text-sm">
+              <div className="text-justify max-sm:text-base">
               I am graduating with a Bachelor's degree in Computer Science with a CGPA of 7.87 out of 10.00 as of the seventh semester. This CGPA reflects my strong work ethic, dedication to my studies, and readiness to pursue further academic and professional goals.
               </div>
             </div>
@@ -84,7 +90,7 @@ function About() {
               <div className="text-xl font-semibold max-sm:absolute max-sm:bottom-7 max-sm:right-0 max-sm:text-xs max-sm:px-2 ">
                 Senior Secondary | <span className="text-violet-700 text-base max-sm:text-xs">PCM</span>
               </div>
-              <div className="text-justify max-sm:text-sm">
+              <div className="text-justify max-sm:text-base">
               I achieved a senior secondary percentage of 78.3% under the CBSE curriculum. This result reflects my commitment to academic excellence and places me within the first division of my cohort. It underscores my capability to excel in rigorous academic environments and my readiness to pursue my goals in Science.
               </div>
             </div>
@@ -101,7 +107,7 @@ function About() {
               <div className="text-xl font-semibold max-sm:absolute max-sm:bottom-7 max-sm:right-0 max-sm:text-xs max-sm:px-2 ">
                 Higher Secondary | <span className="text-violet-700 text-base max-sm:text-xs">All core subjects</span>
               </div>
-              <div className="text-justify max-sm:text-sm">
+              <div className="text-justify max-sm:text-base">
               I achieved a remarkable higher secondary percentage of 72.4% under the CBSE curriculum. This demonstrates my strong dedication to academic success. It highlights my strong analytical abilities and drive for success, traits that will be helpful to me as I work toward my objectives in my respective field.
 
               </div>
@@ -135,7 +141,7 @@ function About() {
               <div className="text-xl font-semibold max-sm:absolute max-sm:bottom-7 max-sm:right-0 max-sm:text-xs max-sm:px-2 ">
                 Nullclass Ed. Tech | <span className="text-violet-700 text-base max-sm:text-xs">MERN</span>
               </div>
-              <div className="text-justify max-sm:text-sm">
+              <div className="text-justify max-sm:text-base">
               I achieved a senior secondary percentage of 78.3% under the CBSE curriculum. This result reflects my commitment to academic excellence and places me within the first division of my cohort. It underscores my capability to excel in rigorous academic environments and my readiness to pursue my goals in Science.
               </div>
             </div>
@@ -151,7 +157,7 @@ function About() {
               <div className="text-xl font-semibold max-sm:absolute max-sm:bottom-7 max-sm:right-0 max-sm:text-xs max-sm:px-2 ">
                 Teachnook Ed. Tech | <span className="text-violet-700 text max-sm:text-xs-base">HTML, CSS3, SASS, JavaScript</span>
               </div>
-              <div className="text-justify max-sm:text-sm">
+              <div className="text-justify max-sm:text-base">
               I am graduating with a Bachelor's degree in Computer Science with a CGPA of 7.87 out of 10.00 as of the seventh semester. This CGPA reflects my strong work ethic, dedication to my studies, and readiness to pursue further academic and professional goals.
               </div>
             </div>
