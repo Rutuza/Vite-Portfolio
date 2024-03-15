@@ -14,7 +14,6 @@ function Skills() {
     <div id="skills">
       <center className="text-4xl font-bold italic m-5">Skills</center>
       <div className="p-10">
-
         <section className="relative font-pop max-sm:w-full lg:flex lg:items-center">
           <div className="container xl:w-9/12">
             <h1 className="font-bold max-sm:text-xl sm:text-2xl lg:text-2xl xl:text-3xl">
@@ -45,37 +44,37 @@ function Skills() {
 
         {/* techstack */}
         <section className="techstacks mt-36">
-          <div className="flex flex-wrap justify-center items-center text-center gap-40">
-            <div className="skill-box">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+            <div className="skill-box w-full">
               <div className="skill-title flex flex-col items-center p-0.5 mb-0.5 relative">
                 <img src={paint} alt="" />
                 <h3 className="font-bold text-2xl font-pop">Design</h3>
               </div>
-              <p className="desc word-break">Figma, Adoble illustrator</p>
+              <p className="text-center word-break">Figma, Adoble illustrator</p>
             </div>
 
-            <div className="skill-box">
+            <div className="skill-box w-full">
               <div className="skill-title flex flex-col items-center p-0.5 mb-0.5 relative">
                 <img src={atom} alt="" />
                 <h3 className="font-bold text-2xl font-pop">Frontend</h3>
               </div>
-              <p className="desc">HTML, CSS, Sass, TailwindCSS, React JS</p>
+              <p className="text-center">HTML, CSS, Sass, TailwindCSS, React JS</p>
             </div>
 
-            <div className="skill-box">
+            <div className="skill-box w-full">
               <div className="skill-title flex flex-col items-center p-0.5 mb-0.5 relative">
                 <img src={dna} alt="" />
                 <h3 className="font-bold text-2xl font-pop">Backend</h3>
               </div>
-              <p className="desc">Node Js, SQL, MongoDB</p>
+              <p className="text-center">Node Js, SQL, MongoDB</p>
             </div>
 
-            <div className="skill-box">
+            <div className="skill-box w-full">
               <div className="skill-title flex flex-col items-center p-0.5 mb-0.5 relative">
                 <img src={code_icon} alt="" />
                 <h3 className="font-bold text-2xl font-pop">Programming</h3>
               </div>
-              <p className="desc">C++, Java, Machine Learning</p>
+              <p className="text-center">C++, Java, Machine Learning</p>
             </div>
           </div>
         </section>
@@ -83,23 +82,24 @@ function Skills() {
         {/* certifications */}
 
         <section className="relative font-pop max-sm:w-full mt-24">
-
-          <div className="lg:flex lg:items-center bg-red-200">
+          <div className="lg:flex lg:items-center">
             <div className="container xl:w-9/12">
-              <h2 className="font-bold max-sm:text-xl sm:text-2xl lg:text-2xl xl:text-3xl relative">Professional achievements</h2>
+              <h2 className="font-bold max-sm:text-xl sm:text-2xl lg:text-2xl xl:text-3xl relative">
+                Professional achievements
+              </h2>
               <p className="text-justify break-words mt-4 lg:w-9/12">
-                  I have pursued various certifications throughout my career to
-                  continuously enhance my skills and stay updated with the latest
-                  industry standards. Among my certifications, I hold a **MongoDB
-                  for SQL Experts** certification from MongoDb University, earned
-                  in September 2023, which signifies my proficiency in leading and
-                  managing projects effectively. Additionally, I completed a **CSS
-                  Skills HackerRank Test** on HackerRank in 2022, providing me
-                  with comprehensive knowledge in my CSS progressive skills which
-                  I am learning. These certifications reflect my commitment to
-                  professional development and my ability to tackle diverse
-                  challenges in the fields of project management, data science,
-                  and cloud computing.
+                I have pursued various certifications throughout my career to
+                continuously enhance my skills and stay updated with the latest
+                industry standards. Among my certifications, I hold a **MongoDB
+                for SQL Experts** certification from MongoDb University, earned
+                in September 2023, which signifies my proficiency in leading and
+                managing projects effectively. Additionally, I completed a **CSS
+                Skills HackerRank Test** on HackerRank in 2022, providing me
+                with comprehensive knowledge in my CSS progressive skills which
+                I am learning. These certifications reflect my commitment to
+                professional development and my ability to tackle diverse
+                challenges in the fields of project management, data science,
+                and cloud computing.
               </p>
             </div>
 
@@ -111,32 +111,43 @@ function Skills() {
               />
             </div>
           </div>
-        </section>
-
-          <div className="container mt-8">
-            <div className="card1">
-              <div className="mongodb w-1/2 h-56 border-2 rounded-lg flex flex-wrap justify-center items-center bg-black">
-                    <img src={mongoDb} alt="" />
-              </div>
-              <div className="w-full mt-4">
-                <a href="#" className="flex justify-evenly items-center">
-                  <h3 className="max-sm:text-sm max-sm:font-medium">MongoDB for SQL Experts</h3>
-                  <img src={arrow} alt="" />
-                </a>
+          <div className="grid grid-cols-4 gap-4">
+          
+            <div className="flex flex-col w-full m-5">
+              <img
+                src={mongoDb}
+                alt=""
+                className="bg-black p-5 rounded-lg w-full"
+              />
+              <div className="flex p-5 w-full justify-between">
+                <p>MongoDB for SQL Experts</p>
+                <img src={arrow} alt="" className="w-5" />
               </div>
             </div>
-            <div className="card2 py-8">
-              <div className="mongodb max-sm:w-1/2 h-56 border-2 rounded-lg flex justify-center items-center bg-black">
-                    <img src={mongoDb} alt="" />
+            <div className="flex flex-col w-full m-5">
+              <img
+                src={mongoDb}
+                alt=""
+                className="bg-black p-5 rounded-lg w-full"
+              />
+              <div className="flex p-5 w-full justify-between">
+                <p>MongoDB for SQL Experts</p>
+                <img src={arrow} alt="" className="w-5" />
               </div>
-              <div className="w-full mt-4">
-                <a href="#" className="flex justify-evenly items-center">
-                  <h3 className="max-sm:text-sm max-sm:font-medium">HackerRank CSS Skills Test</h3>
-                  <img src={arrow} alt="" />
-                </a>
+            </div>
+            <div className="flex flex-col w-full m-5">
+              <img
+                src={mongoDb}
+                alt=""
+                className="bg-black p-5 rounded-lg w-full"
+              />
+              <div className="flex p-5 w-full justify-between">
+                <p>MongoDB for SQL Experts</p>
+                <img src={arrow} alt="" className="w-5" />
               </div>
             </div>
           </div>
+        </section>
       </div>
     </div>
   );
