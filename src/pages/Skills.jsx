@@ -12,7 +12,7 @@ import arrow from "../assets/svg/right_arrow.svg";
 function Skills() {
   return (
     <div id="skills">
-      <center className="text-4xl font-bold italic m-5">Skills</center>
+      <center className="text-4xl font-bold italic m-4">Skills</center>
       <div className="p-10">
         <section className="relative font-pop max-sm:w-full lg:flex lg:items-center">
           <div className="container xl:w-9/12">
