@@ -6,7 +6,7 @@ import atom from "../assets/svg/moleculewithcircle.svg";
 import dna from "../assets/svg/dnawithcircle.svg";
 import code_icon from "../assets/svg/codewithcircle.svg";
 
-import mongoDb from "../assets/svg/mongoDb_icon.svg";
+import mongodb from "../assets/svg/mongoDB logo.svg";
 import arrow from "../assets/svg/right_arrow.svg";
 
 function Skills() {
@@ -111,11 +111,11 @@ function Skills() {
               />
             </div>
           </div>
-          <div className="grid grid-cols-4 gap-4">
+          <div className="grid grid-cols-2 gap-4 mt-16">
           
             <div className="flex flex-col w-full m-5">
               <img
-                src={mongoDb}
+                src={mongodb}
                 alt=""
                 className="bg-black p-5 rounded-lg w-full"
               />
@@ -126,7 +126,7 @@ function Skills() {
             </div>
             <div className="flex flex-col w-full m-5">
               <img
-                src={mongoDb}
+                src={mongodb}
                 alt=""
                 className="bg-black p-5 rounded-lg w-full"
               />
@@ -135,17 +135,10 @@ function Skills() {
                 <img src={arrow} alt="" className="w-5" />
               </div>
             </div>
-            <div className="flex flex-col w-full m-5">
-              <img
-                src={mongoDb}
-                alt=""
-                className="bg-black p-5 rounded-lg w-full"
-              />
-              <div className="flex p-5 w-full justify-between">
-                <p>MongoDB for SQL Experts</p>
-                <img src={arrow} alt="" className="w-5" />
-              </div>
-            </div>
+
+
+
+           
           </div>
         </section>
       </div>

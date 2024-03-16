@@ -4,10 +4,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        warmGray:'#1D1C1C',  
+        warmGray:'#1D1C1C',
+        cream:'#F4F0ED',  
       }, 
       fontFamily: {
-        pop: "Poppins"
+        pop: "Poppins",
+        ink: "Ink-free",
       }, 
 
       screens: {
