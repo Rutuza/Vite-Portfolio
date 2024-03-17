@@ -19,9 +19,9 @@ function Contact() {
                     <h1 className='font-semibold text-3xl'>Want to connect ?</h1>
                     
                     <form action="" className='grid gap-4'>
-                        <div className='font-semibold'>Name <span className='grid font-normal border-2 border-l-0 border-r-0 border-t-0 outline-none'><input type="text" name='username' /></span></div>
-                        <div className='font-semibold'>Email <span className='grid font-normal border-2 border-l-0 border-r-0 border-t-0 outline-none'><input type="email" /></span></div>
-                        <div className='font-semibold'>Message <span className='grid font-normal border-2 border-l-0 border-r-0 border-t-0 outline-none'><input type="text" name='message'/></span> </div>
+                        <label className='font-semibold'>Name <span className='grid font-normal border-2 border-l-0 border-r-0 border-t-0'><input type="text" name='username' /></span></label>
+                        <label className='font-semibold'>Email <span className='grid font-normal border-2 border-l-0 border-r-0 border-t-0 outline-none'><input type="email" /></span></label>
+                        <label className='font-semibold'>Message <span className='grid font-normal border-2 border-l-0 border-r-0 border-t-0 outline-none'><input type="text" name='message'/></span> </label>
                     </form>
                     <div className='bg-black text-violet-400 font-semibold border-2 rounded-md p-4 hover:bg-transparent hover:border-black max-sm:block max-sm:m-auto max-sm:w-2/5 sm:w-2/5 sm:block sm:m-auto text-center'>
                         <button type="button" className='text-center'>Send</button>
