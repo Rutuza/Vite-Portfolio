@@ -12,7 +12,7 @@ import { HiDownload } from "react-icons/hi";
 function About() {
   return (
 
-    <div className="max-sm:p-2 p-4">
+    <div className="max-sm:p-2 p-4 grid grid-flow-row gap-16 font-pop">
       <center className="text-4xl font-bold italic m-5">About Me</center>
 
       <section className="max-sm:text-justify max-sm:p-3 font-pop lg:flex lg:justify-between lg:items-center">
@@ -20,7 +20,7 @@ function About() {
           <img src={pfp} alt="" srcset="" />
         </div>
 
-        <div className="relative font-pop max-sm:grid max-sm:grid-flow-row max-sm:justify-center max-sm:items-center sm:py-8 lg:w-1/2 lg:gap-2 lg:text-base">
+        <div className="relative font-pop grid grid-flow-row gap-8 justify-center items-center lg:w-1/2 lg:gap-2 lg:text-base xl:gap-8">
           <div className="sm:text-justify">
             I am a Final year, Computer Science student at Amity University
             Madhya Pradesh, Gwalior. I have strong passion for Web
@@ -32,7 +32,7 @@ function About() {
             success and I’m always on the lookout for fresh challenges to keep
             me motivated and engaged.
           </div>
-          <div className="py-5">
+          <div className="">
             <ul>
               <li className="font-semibold py-1">Name: <span className="font-light">Jyotika Dalal</span></li>
               <li className="font-semibold py-1">Phone: <span className="font-light">(+91)-8319278208</span></li>
@@ -44,7 +44,7 @@ function About() {
             <button type="button" className="max-sm:block max-sm:m-auto sm:block sm:m-auto font-bold w-1/2 text-violet-400 text-center hover:bg-transparent hover:text-violet-900  hover:font-medium hover:border-black hover:border-2 border rounded-md p-3 max-sm:w-3/4 lg:absolute lg:left-0"><span><HiDownload /></span><div>Download CV</div></button>
           </div> */}
 
-          <button type="button" className="p-4 max-sm:block max-sm:m-auto sm:block sm:m-auto font-bold w-1/2 text-violet-400 text-center bg-gray-900 hover:bg-transparent hover:text-violet-900  hover:font-medium hover:border-black hover:border-2 border rounded-md max-sm:w-3/4 lg:absolute lg:left-0 xl:flex xl:items-center xl:justify-center xl:gap-4">
+          <button type="button" className="w-1/2 p-3 flex items-center justify-center gap-4 m-auto max-sm:text-xl font-bold text-violet-400 text-center bg-gray-900 hover:bg-transparent hover:text-violet-900  hover:font-medium hover:border-black hover:border-2 border rounded-md xl:flex xl:items-center xl:justify-center xl:gap-4">
             <div><HiDownload /></div>
             <div className="text-sm">DOWNLOAD CV</div>
           </button>
@@ -53,8 +53,7 @@ function About() {
       </section>
 
 {/* Education section */}
-
-      <section className="font-pop py-16" > 
+      <section> 
         <div className="flex items-center max-sm:relative">
           <div className="text-4xl font-medium text-left max-sm:text-3xl">Education</div>
           <div className="mx-2 w-full h-0 border-2 border-black "></div> 
@@ -118,9 +117,7 @@ function About() {
       </section>
 
       {/* Experience section */}
-
-
-      <section className="font-pop py-16" > 
+      <section> 
         <div className="flex items-center max-sm:relative">
           <div className="text-4xl font-medium text-left max-sm:text-3xl">Experience</div>
           <div className="mx-2 w-full h-0 border-2 border-black "></div> 
