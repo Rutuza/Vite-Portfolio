@@ -29,7 +29,7 @@ function Contact() {
                     </div>
 
                     <div className="mytext text-violet-500 sm:w-3/5 sm:absolute sm:-bottom-28 sm:right-0">
-                        <p className='text-justify text-sm'>I understand that it may be troublesome to take a chance on me, but I feel that with my potential and devotion, I can become the best junior designer you could hire.</p>
+                        <p className='text-justify text-sm max-xl:absolute max-xl:right-5'>I understand that it may be troublesome to take a chance on me, but I feel that with my potential and devotion, I can become the best junior designer you could hire.</p>
                         <small className='max-sm:float-right max-sm:mt-3 sm:absolute sm:right-0'>-Jyotika Dalal</small>
                     </div>
                 </div>
