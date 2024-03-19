@@ -19,7 +19,7 @@ function Contact() {
                     <h1 className='font-semibold text-3xl'>Want to connect ?</h1>
                     
                     <form action="" className='grid gap-4'>
-                        <label className='font-semibold'>Name <span className='grid font-normal border-2 border-l-0 border-r-0 border-t-0'><input type="text" name='username' /></span></label>
+                        <label className='font-semibold'>Name <span className='grid font-normal border-2 border-l-0 border-r-0 border-t-0 outline-none'><input type="text" name='username' /></span></label>
                         <label className='font-semibold'>Email <span className='grid font-normal border-2 border-l-0 border-r-0 border-t-0 outline-none'><input type="email" /></span></label>
                         <label className='font-semibold'>Message <span className='grid font-normal border-2 border-l-0 border-r-0 border-t-0 outline-none'><input type="text" name='message'/></span> </label>
                     </form>
