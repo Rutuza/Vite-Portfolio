@@ -54,10 +54,10 @@ function Home() {
         <div className='py-3 flex flex-row items-center gap-4 font-pop font-semibold max-sm:pt-4 max-sm:flex max-sm:justify-center max-sm:text-sm sm:justify-center sm:pt-5 lg:absolute lg:left-12 lg:bottom-0'>
           <span>Follow me on: </span>
           <ul className='flex gap-4'>
-            <li><a href="#" target='_blank'><ImLinkedin /></a></li>
-            <li><a href="#" target='_blank'></a><VscGithubInverted /></li>
-            <li><a href="#" target='_blank'></a><RiInstagramFill /></li>
-            <li><a href="#" target='_blank'></a><FaBehance /></li>
+            <li><a href="https://www.linkedin.com/in/jyotika-dalal-2bb242240/" target='_blank'><ImLinkedin /></a></li>
+            <li><a href="https://github.com/Rutuza" target='_blank'><VscGithubInverted /></a></li>
+            <li><a href="https://www.instagram.com/rxtu_004/" target='_blank'><RiInstagramFill /></a></li>
+            {/* <li><a href="#" target='_blank'></a><FaBehance /></li> */}
           </ul>
         </div>
       </div>
