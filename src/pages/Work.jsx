@@ -6,7 +6,7 @@ function Work() {
      <div className='p-2 font-pop bg-cream'>
         <center>Work</center>
         <div>
-            <div>
+            <div className='w-1/2'>
                 <h1 className='max-sm:text-2xl font-semibold'>The power of design thinking</h1>
                 <p className='text-justify mt-4'>The strength of design thinking is found in its capacity to foster creativity, human-centered solutions, and efficient problem-solving in a variety of contexts. It's a way of thinking that prioritizes collaboration, empathy, and experimentation, which makes it a useful strategy in the complicated and quickly changing world of today.</p>
             </div>
