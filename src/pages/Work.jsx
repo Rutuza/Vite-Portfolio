@@ -8,33 +8,39 @@ function Work() {
 
         <div className='mt-8'>
           <div>
-              <div>
-                  <h1 className='max-sm:text-2xl font-semibold'>The power of design thinking</h1>
+              <div className='w-1/2'>
+                  <h1 className='text-4xl font-semibold'>The power of design thinking</h1>
                   <p className='text-justify mt-4'>The strength of design thinking is found in its capacity to foster creativity, human-centered solutions, and efficient problem-solving in a variety of contexts. It's a way of thinking that prioritizes collaboration, empathy, and experimentation, which makes it a useful strategy in the complicated and quickly changing world of today.</p>
               </div>
               <div></div>
           </div>
 
-          <div className="cards flex flex-wrap flex-row mt-4 gap-4 justify-center items-center">
-            <div className='max-sm:w-full mt-4'>
-              <div className='bg-gray-400 h-96 border-2 rounded-md'></div>
-              <small className='max-sm:text-xl'>1. Weather Forecasting App</small>
+          <div className="container mt-16 flex flex-wrap justify-center items-center gap-4">
+            <div>
+              <div className='w-56 h-96 bg-gray-300'></div>
+              <div>1. Weather Forecasting App</div>
             </div>
-            <div className='max-sm:w-full'>
-              <div className='bg-gray-400 h-96 border-2 rounded-md'></div>
-              <small className='max-sm:text-xl'>2. Anymator - React Library</small>
+            <div>
+              <div className='w-56 h-96 bg-gray-300'></div>
+              <div>1. Anymator</div>
             </div>
-            <div className='max-sm:w-full'>
-              <div className='bg-gray-400 h-96 border-2 rounded-md'></div>
-              <small className='max-sm:text-xl'>3. Personal Portfolio</small>
+            <div>
+              <div className='w-56 h-96 bg-gray-300'></div>
+              <div>1. Personal Portfolio</div>
             </div>
-            <div className='max-sm:w-full'>
-              <div className='bg-gray-400 h-96 border-2 rounded-md'></div>
-              <small className='max-sm:text-xl'>4. Ezybit Software</small>
+            <div>
+              <div className='w-56 h-96 bg-gray-300'></div>
+              <div>1. Ezybit Software</div>
             </div>
           </div>
 
           <hr className='border-black mt-8'/>
+
+          <div className="projects-container">
+            <div className="weather-app">
+              <h1>Weather Forecasting App</h1>
+            </div>
+          </div>
 
         </div>
      </div> 
