@@ -6,6 +6,8 @@ export default {
       colors: {
         warmGray:'#1D1C1C',
         cream:'#F4F0ED',  
+        grayscale: '#313131',
+
       }, 
       fontFamily: {
         pop: "Poppins",
