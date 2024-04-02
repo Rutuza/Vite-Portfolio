@@ -59,7 +59,10 @@ function Work() {
                 <div className='w-1/2 font-pop'>
                   <h1 className='text-3xl'>Anymator - React Component Library</h1>
                   <p className='mt-4 text-justify'>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+                  Anymator is an innovative React component library that revolutionizes the way developers incorporate animations into their projects. Built using React JS, TypeScript, and Sass, Anymator offers a comprehensive collection of animations, making it a one-stop destination for developers seeking to enhance user experience with captivating motion effects. With Anymator, developers have access to a vast array of animation options, ranging from simple transitions to complex effects, all conveniently packaged within a single library. Whether you're looking for subtle hover animations, attention-grabbing entrance effects, or seamless page transitions, Anymator has you covered.
+                  <br />
+                  <br />
+                  In summary, Anymator empowers developers to create stunning and immersive user experiences by providing a comprehensive collection of animations in one convenient library. Whether you're a seasoned developer or just starting out, Anymator simplifies the process of adding dynamic motion effects to your React applications, helping you deliver engaging and visually appealing interfaces to your users.
                   </p>
                 </div>
               </div>
@@ -69,7 +72,16 @@ function Work() {
               <div className='p-8'>
                 <div className='w-1/2'>
                   <h1 className='text-3xl'>Airbnb clone</h1>
-                  <p className='text-justify mt-4'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                  <p className='text-justify mt-4'>The Airbnb clone project built with the MERN stack is a web application that mimics the core functionalities of the popular accommodation booking platform Airbnb. Using MongoDB for the database, Express.js for the backend framework, React.js for the frontend, and Node.js for server-side scripting, this project allows users to browse, search, and book accommodations such as homes, apartments, or vacation rentals. Users can sign up, list their properties, search for accommodations based on various filters like location, price, and amenities, view property details, make bookings, and manage their reservations. The MERN stack provides a robust foundation for building scalable and responsive web applications, making it an ideal choice for replicating the Airbnb platform. 
+                  
+                  <br />
+                  <br />
+                  In addition to core functionalities, the Airbnb clone may incorporate additional features such as reviews and ratings, integrated payment gateways for secure transactions, social authentication for streamlined user registration, and geolocation services for enhanced search capabilities.
+                  <br />
+                  <br />
+                  Overall, the MERN stack Airbnb clone project showcases the power of modern web development technologies in creating robust, feature-rich platforms that emulate the success of industry-leading services like Airbnb.
+                  </p>
+
 
                 </div>
               </div>
