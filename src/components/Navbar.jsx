@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <div>
       <header className='relative'>
-        <nav className='p-2 flex justify-between items-center border-b-2 border-gray-900'>
+        <nav className='py-2 px-8 flex justify-between items-center border-b-2 border-gray-900'>
 
           <div>
             <img src={logo} alt="" />
