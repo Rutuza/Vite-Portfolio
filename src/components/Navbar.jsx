@@ -1,16 +1,19 @@
 import React, { useState } from 'react';
 import logo from '../assets/svg/logo.svg';
 import { RxCross2 } from "react-icons/rx";
+import Footer from './Footer';
 
 function Navbar() {
   const[isVisible, setIsVisible] = useState(false);
   return (
-    <div>
+    <div className='sticky top-0 bg-white z-10'>
       <header className='relative'>
         <nav className='py-2 px-8 flex justify-between items-center border-b-2 border-gray-900'>
 
-          <div>
+          <div className='flex justify-center items-start gap-2'>
             <img src={logo} alt="" />
+            <div className="name text-sm">Jyotika Dalal</div>
+            <div className="pronoun text-sm text-zinc-500">(She/her)</div>
           </div>
 
             <div className={`max-sm:absolute top-0 -left-0 py-5 w-full max-sm:h-48 duration-700 ease-in-out max-sm:text-white max-sm:bg-warmGray flex justify-around sm:justify-end sm:translate-y-0 ${isVisible && ' -translate-y-[300%]'} `}>
@@ -33,6 +36,7 @@ function Navbar() {
         </nav>
       </header>
     </div>
+    
   );
 }
 

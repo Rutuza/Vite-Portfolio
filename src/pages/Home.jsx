@@ -6,6 +6,7 @@ import { ImLinkedin } from "react-icons/im";
 import { VscGithubInverted } from "react-icons/vsc";
 import { RiInstagramFill } from "react-icons/ri";
 import { FaBehance } from "react-icons/fa";
+import Footer from '../components/Footer';
 
 function Home() {
   const [text] = useTypewriter({
@@ -37,6 +38,7 @@ function Home() {
           </ul>
         </div>
       </section>
+      <Footer></Footer>
     </>
   );
 }
