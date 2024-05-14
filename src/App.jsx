@@ -19,14 +19,13 @@ function App() {
       <div id='root'>
         <Router>
           <Navbar />
-
-          <Routes>
-            <Route path='/' element={<Home/>}/>
-            <Route path='/about' element={<About/>}/>
-            <Route path='/skills' element={<Skills />}/>
-            <Route path='/work' element={<Work />} />
-            <Route path='contact' element={<Contact />}/>
-          </Routes>
+            <Routes>
+              <Route path='/' element={<Home/>} />
+              <Route path='/about' element={<About/>} />
+              <Route path='/skills' element={<Skills/>} />
+              <Route path='/work' element={<Work/>} />
+              <Route path='/contact' element={<Contact/>} />
+            </Routes>
 
         </Router>
           {/* <Footer /> */}

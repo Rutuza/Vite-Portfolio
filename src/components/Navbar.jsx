@@ -10,7 +10,7 @@ function Navbar() {
       <header className='relative'>
         <nav className='px-10 flex justify-between items-center border-b-2 border-gray-900'>
 
-          <div className='flex justify-center items-start gap-2'>
+          <div className='flex items-center gap-2'>
             <img src={logo} alt="" />
             <div className="name text-sm">Jyotika Dalal</div>
             <div className="pronoun text-sm text-zinc-500">(She/her)</div>

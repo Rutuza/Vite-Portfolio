@@ -150,7 +150,7 @@ function About() {
             <div className="w-2/5 max-sm:w-fit sm:w-fit md:w-1/2">
               <div className="text-base font-semibold max-sm:absolute max-sm:bottom-7 max-sm:right-0 max-sm:text-xs max-sm:px-2 ">
                 Teachnook Ed. Tech | <span className="text-violet-700 text-base max-sm:text-xs-base">HTML, CSS3, SASS, JavaScript</span>
-              </div>
+              </div>  
               <div className="text-justify text-sm mt-2 max-sm:text-base">
               I am graduating with a Bachelor's degree in Computer Science with a CGPA of 7.87 out of 10.00 as of the seventh semester. This CGPA reflects my strong work ethic, dedication to my studies, and readiness to pursue further academic and professional goals.
               </div>
