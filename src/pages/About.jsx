@@ -7,6 +7,8 @@ import { ImGithub } from "react-icons/im";
 import { RiInstagramFill } from "react-icons/ri";
 import { ImBehance2 } from "react-icons/im";
 import { HiDownload } from "react-icons/hi";
+import { Link } from "react-router-dom";
+import Footer from "../components/Footer";
 
 
 function About() {
@@ -15,7 +17,7 @@ function About() {
     <div className="max-sm:p-2 p-4 grid grid-flow-row gap-16 font-pop">
       <center className="text-4xl font-bold italic m-5">About Me</center>
 
-      <section className="max-sm:text-justify max-sm:p-3 font-pop lg:flex lg:justify-between lg:items-center">
+      <section className="max-sm:text-justify max-sm:p-3 font-pop lg:flex lg:justify-between">
         <div className="max-sm:py-6 max-sm:my-5">
           <img src={pfp} alt="" srcset="" />
         </div>
@@ -42,8 +44,8 @@ function About() {
           </div>
 
           <button type="button" className="w-1/2 p-3 flex items-center justify-center gap-4 m-auto max-sm:text-xl font-bold text-violet-400 text-center bg-gray-900 hover:bg-transparent hover:text-violet-900  hover:font-medium hover:border-black hover:border-2 border rounded-md xl:flex xl:items-center xl:justify-center xl:gap-4">
-            <div><HiDownload /></div>
-            <div className="text-sm">DOWNLOAD CV</div>
+            <a href="http://" target="_blank">DOWNLOAD CV</a>
+            {/* <div><HiDownload /></div> */}
           </button>
         </div>
 
@@ -136,7 +138,10 @@ function About() {
                 Nullclass Ed. Tech | <span className="text-violet-700 text-base max-sm:text-xs">MERN</span>
               </div>
               <div className="text-justify text-sm mt-2 max-sm:text-base">
-              I achieved a senior secondary percentage of 78.3% under the CBSE curriculum. This result reflects my commitment to academic excellence and places me within the first division of my cohort. It underscores my capability to excel in rigorous academic environments and my readiness to pursue my goals in Science.
+              •	Worked on building web applications using the MERN stack. <br />
+              •	Developed RESTful APIs and integrated them with the frontend components. <br />
+              •	Contributed to database design, data modelling, and efficient data storage using MongoDB.
+
               </div>
             </div>
           </div>
@@ -152,7 +157,10 @@ function About() {
                 Teachnook Ed. Tech | <span className="text-violet-700 text-base max-sm:text-xs-base">HTML, CSS3, SASS, JavaScript</span>
               </div>  
               <div className="text-justify text-sm mt-2 max-sm:text-base">
-              I am graduating with a Bachelor's degree in Computer Science with a CGPA of 7.87 out of 10.00 as of the seventh semester. This CGPA reflects my strong work ethic, dedication to my studies, and readiness to pursue further academic and professional goals.
+              •	Collaborated with front-end development team to implement highly responsive and intuitive web interfaces resulting in a 45% reduction in bounce rate and a 30% increase in user engagement metrics. <br />
+              •	Gained hands-on experience in optimizing website performance and ensuring cross-browser compatibility. <br />
+              •	Assisted in converting wireframes and designs into functional web components using HTML, CSS, and JavaScript.
+
               </div>
             </div>
           </div>
