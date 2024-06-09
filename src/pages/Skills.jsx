@@ -114,11 +114,14 @@ function Skills() {
           <div className="grid grid-cols-2 gap-4 mt-16">
           
             <div className="flex flex-col w-full m-5">
-              <img
-                src={mongodb}
-                alt=""
-                className="bg-black p-5 rounded-lg w-full"
-              />
+              <a href="http://">
+                <img
+                  src={mongodb}
+                  alt=""
+                  className="bg-black p-5 rounded-lg w-full"
+                />
+
+              </a>
               <div className="flex p-5 w-full justify-between">
                 <p>MongoDB for SQL Experts</p>
                 <img src={arrow} alt="" className="w-5" />

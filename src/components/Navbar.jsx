@@ -6,7 +6,7 @@ import Footer from './Footer';
 function Navbar() {
   const[isVisible, setIsVisible] = useState(false);
   return (
-    <div className='sticky top-0 bg-white z-10'>
+    <div className='sticky top-0 bg-cream z-10'>
       <header className='relative'>
         <nav className='px-10 flex justify-between items-center border-b-2 border-gray-900'>
 
