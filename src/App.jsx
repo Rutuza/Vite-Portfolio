@@ -9,10 +9,10 @@ import Skills from './pages/Skills'
 import Work from './pages/Work'
 import Contact from './pages/Contact'
 import Footer from './components/Footer'
-import Rough from './pages/Rough'
+
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-import Rough from './pages/Rough'
+
 
 function App() {
   

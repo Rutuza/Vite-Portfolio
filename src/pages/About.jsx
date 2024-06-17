@@ -43,10 +43,10 @@ function About() {
             </ul>
           </div>
 
-          <button type="button" className="w-1/2 p-3 flex items-center justify-center gap-4 m-auto max-sm:text-xl font-bold text-violet-400 text-center bg-gray-900 hover:bg-transparent hover:text-violet-900  hover:font-medium hover:border-black hover:border-2 border rounded-md xl:flex xl:items-center xl:justify-center xl:gap-4">
-            <a href="http://" target="_blank">DOWNLOAD CV</a>
-            {/* <div><HiDownload /></div> */}
-          </button>
+        <a href="Jyotika_Dalal_Resume.pdf " target="_blank" download={'file:///C:/Users/dalal/OneDrive/Documents/Placement/Jyotika%20Dalal%20resume%20recently%20updated.pdf'}>
+          <button type="button" className="w-1/2 p-3 flex items-center justify-center gap-4 m-auto max-sm:text-xl font-bold text-violet-400 text-center bg-gray-900 hover:bg-transparent hover:text-violet-900  hover:font-medium hover:border-black hover:border-2 border rounded-md xl:flex xl:items-center xl:justify-center xl:gap-4">Download CV</button>
+        
+        </a>
         </div>
 
       </section>
