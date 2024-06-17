@@ -23,6 +23,7 @@ function Navbar() {
                 <li className='max-sm:w-1/3 hover:border-b-2 hover:border-violet-400'><a href="#">Skills</a></li>
                 <li className='max-sm:w-1/3 hover:border-b-2 hover:border-violet-400'><a href="#">Work</a></li>
                 <li className='max-sm:w-1/3 hover:border-b-2 hover:border-violet-400'><a href="#">Contact</a></li>
+                <li className='max-sm:w-1/3 hover:border-b-2 hover:border-violet-400'><a href="#">Rough</a></li>
               </ul>
               <div className='sm:hidden'><RxCross2 className='w-5 h-5' onClick={() => {setIsVisible(!isVisible)}}/></div>
 
