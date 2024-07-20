@@ -14,8 +14,8 @@ function Skills() {
     <div id="skills">
       <center className="text-4xl font-bold italic m-4">Skills</center>
       <div className="p-10">
-        <section className="relative font-pop max-sm:w-full lg:flex lg:items-center">
-          <div className="container xl:w-9/12">
+        <section className="relative font-pop max-sm:w-full lg:flex lg:items-center bg-violet-400">
+          <div className="container xl:w-8/12">
             <h1 className="font-bold max-sm:text-xl sm:text-2xl lg:text-2xl xl:text-3xl">
               My creative skills and knowledge in technology
             </h1>
@@ -33,7 +33,8 @@ function Skills() {
             </p>
           </div>
 
-          <div>
+          <div className="relative bg-violet-500">
+            <p className="max-w-20 font-ink text-violet-500 font-bold">I always try to learn some new skills</p>
             <img
               src={sparkle}
               alt=""
