@@ -14,15 +14,15 @@ import Footer from "../components/Footer";
 function About() {
   return (
 
-    <div className="max-sm:p-2 p-4 grid grid-flow-row gap-16 font-pop">
+    <div className="max-sm:p-1 p-4 grid grid-flow-row gap-8 font-pop">
       <center className="text-4xl font-bold italic m-5">About Me</center>
 
-      <section className="max-sm:text-justify max-sm:p-3 font-pop lg:flex lg:justify-between">
-        <div className="max-sm:py-6 max-sm:my-5">
+      <section className="max-sm:text-justify max-sm:p-2 max-sm: font-pop lg:flex lg:justify-between">
+        <div className="max-sm:py-6 max-sm:my-5 max-lg:flex max-lg:justify-center max-lg:items-center">
           <img src={pfp} alt="" srcset="" />
         </div>
 
-        <div className="relative font-pop grid grid-flow-row gap-8 justify-center items-center lg:w-1/2 lg:gap-2 lg:text-base xl:gap-8">
+        <div className="relative font-pop grid grid-flow-row gap-8 justify-center items-center sm:mt-8 lg:w-1/2 lg:gap-2 lg:text-base xl:gap-8">
           <div className="sm:text-justify">
             I am a Final year, Computer Science student at Amity University
             Madhya Pradesh, Gwalior. I have strong passion for Web
@@ -52,11 +52,12 @@ function About() {
       </section>
 
 {/* Education section */}
-      <section> 
+      <section className="relative"> 
         <div className="flex items-center max-sm:relative">
           <div className="text-4xl font-medium text-left max-sm:text-3xl">Education</div>
           <div className="mx-2 w-full h-0 border-2 border-black "></div> 
         </div>
+        <div className="absolute right-2 top-6 font-cvt text-violet-600">the journey where it all started</div>
 
         {/* <div className="m-0 text-violet-700 text-base max-sm:float-right max-sm:text-xs max-sm:absolute max-sm:right-2 max-sm:top-0">The journey where it all started</div> */}
         
@@ -118,7 +119,7 @@ function About() {
       {/* Experience section */}
       <section> 
         <div className="flex items-center max-sm:relative">
-          <div className="text-4xl font-medium text-left max-sm:text-3xl">Experience</div>
+          <div className="text-4xl font-medium text-left max-sm:text-3xl">Internships</div>
           <div className="mx-2 w-full h-0 border-2 border-black "></div> 
         </div>
 

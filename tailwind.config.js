@@ -11,7 +11,7 @@ export default {
       }, 
       fontFamily: {
         pop: "Poppins",
-        ink: "Ink-free",
+        cvt: "caveat",
       }, 
 
       screens: {
