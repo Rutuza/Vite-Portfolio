@@ -10,6 +10,7 @@ import Contact from './pages/Contact'
 import Footer from './components/Footer'
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import Homepage from './pages/Homepage'
 
 function App() {
   
@@ -17,6 +18,7 @@ function App() {
     <>
     <div className="App">
       <Navbar />
+      <Homepage />
       <About />
       <Skills />
       <Work />
