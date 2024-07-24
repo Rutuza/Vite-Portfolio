@@ -14,15 +14,16 @@ import Homepage from './pages/Homepage'
 
 function App() {
   
+
   return (
     <>
     <div className="App">
       <Navbar />
       <Homepage />
-      <About />
+      {/* <About />
       <Skills />
       <Work />
-      <Contact />
+      <Contact /> */}
     </div>
 
 
