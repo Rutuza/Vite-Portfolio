@@ -21,6 +21,17 @@ export default {
         xl: "1280px"
       },
 
+      keyframes: {
+        scrollGrid: {
+          '0%': { backgroundPosition: '0 0' },
+          '100%': { backgroundPosition: '-200% 0' },
+        },
+      },
+
+      animation: {
+        scrollGrid: 'scroll 180s linear infinite',
+      }
+
     },
   },
 };
