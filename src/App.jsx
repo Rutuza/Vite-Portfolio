@@ -20,10 +20,10 @@ function App() {
     <div className="App">
       <Navbar />
       <Homepage />
-      {/* <About />
+      <About />
       <Skills />
       <Work />
-      <Contact /> */}
+      <Contact />
     </div>
 
 

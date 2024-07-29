@@ -180,7 +180,7 @@ function About() {
       </section>
 
       {/* Experience section */}
-      <section>
+      <section className="relative">
         <div className="flex items-center max-sm:relative">
           <div className="text-4xl font-medium text-left max-sm:text-3xl">
             Internships
@@ -189,6 +189,10 @@ function About() {
             <DottedLine />
           </div>
         </div>
+        <div className="absolute font-cvt text-2xl text-violet-500 top-5 right-4">I gained some knowledge about my domain</div>
+        {/* <div className="absolute right-4 top-5 font-cvt text-violet-500 text-2xl">
+          the journey where it all started
+        </div> */}
 
         
 
