@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./src//*.{js,ts,jsx,tsx}"],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       colors: {
@@ -23,13 +23,13 @@ export default {
 
       keyframes: {
         scrollGrid: {
-          '0%': { backgroundPosition: '0 0' },
-          '100%': { backgroundPosition: '-200% 0' },
+          '0%': { transform: "translateX(0%)" },
+          '100%': { transform: "translateX(-50%) "},
         },
       },
 
       animation: {
-        scrollGrid: 'scroll 180s linear infinite',
+        scrollGrid: 'scrollGrid 5s linear infinite',
       }
 
     },

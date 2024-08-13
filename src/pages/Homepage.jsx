@@ -19,8 +19,8 @@ function Homepage() {
           <div>Web Developer + <span className='text-gray-500'>Figma Designer</span></div>
         </div>
 
-        <div>
-          <img className='w-[4800px] h-[389.5px] bg-cover bg-repeat-x bg-center animate-scrollGrid' src="https://unsplash.com/assets/api/api-photo-grid@2x-388d83e210e483af53295e6574d71e343557875502b68b56b3cf0e1c0040b440.jpg" alt="" srcset="" />
+        <div className='w-full overflow-x-hidden '>
+          <img className='w-[200vw] max-w-none animate-scrollGrid translate-x-0' src="https://unsplash.com/assets/api/api-photo-grid@2x-388d83e210e483af53295e6574d71e343557875502b68b56b3cf0e1c0040b440.jpg" alt="" srcset="" />
         </div>
       </div>
     </>

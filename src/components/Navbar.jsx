@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import logo from '../assets/svg/logo.svg';
 import { RxCross2 } from "react-icons/rx";
 import Footer from './Footer';
-import { Link } from 'react-router-dom';
 
 function Navbar() {
   const[isVisible, setIsVisible] = useState(false);
@@ -19,11 +18,11 @@ function Navbar() {
 
             <div className={`max-sm:absolute top-0 -left-0 py-5 w-full max-sm:h-48 duration-700 ease-in-out max-sm:text-white max-sm:bg-warmGray flex justify-around sm:justify-end sm:translate-y-0 ${isVisible && ' -translate-y-[300%]'} `}>
               <ul className='flex items-center sm:justify-end sm:gap-8 gap-4 font-semibold max-sm:flex-wrap max-sm:gap-x-0 w-4/5 font-pop'>
-                <li className='max-sm:w-1/3 hover:border-b-2 hover:border-violet-400'><Link to="/">Home</Link></li>
-                <li className='max-sm:w-1/3 hover:border-b-2 hover:border-violet-400'><Link to="/about">About</Link></li>
-                <li className='max-sm:w-1/3 hover:border-b-2 hover:border-violet-400'><Link to="/skills">Skills</Link></li>
-                <li className='max-sm:w-1/3 hover:border-b-2 hover:border-violet-400'><Link to="/work">Work</Link></li>
-                <li className='max-sm:w-1/3 hover:border-b-2 hover:border-violet-400'><Link to="/contact">Contact</Link></li>
+                <li className='max-sm:w-1/3 hover:border-b-2 hover:border-violet-400'><a href="#">Home</a></li>
+                <li className='max-sm:w-1/3 hover:border-b-2 hover:border-violet-400'><a href="#">About</a></li>
+                <li className='max-sm:w-1/3 hover:border-b-2 hover:border-violet-400'><a href="#">Skills</a></li>
+                <li className='max-sm:w-1/3 hover:border-b-2 hover:border-violet-400'><a href="#">Work</a></li>
+                <li className='max-sm:w-1/3 hover:border-b-2 hover:border-violet-400'><a href="#">Contact</a></li>
               </ul>
               <div className='sm:hidden'><RxCross2 className='w-5 h-5' onClick={() => {setIsVisible(!isVisible)}}/></div>
 
