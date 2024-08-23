@@ -29,7 +29,7 @@ export default {
       },
 
       animation: {
-        scrollGrid: 'scrollGrid 5s linear infinite',
+        scrollGrid: 'scrollGrid 30s linear infinite',
       }
 
     },
