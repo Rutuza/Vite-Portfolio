@@ -11,6 +11,7 @@ import Footer from './components/Footer'
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Homepage from './pages/Homepage'
+import Projects from './pages/Projects'
 
 function App() {
   
@@ -22,11 +23,12 @@ function App() {
       {/* <Homepage /> */}
       {/* <About /> */}
       {/* <Skills /> */}
-      <Work />
+      {/* <Work /> */}
+      <Projects />
       {/* <Contact /> */}
     </div>
 
-      <div id='root'>
+      {/* <div id='root'>
         <Router>
           <Navbar />
             <Routes>
@@ -39,7 +41,7 @@ function App() {
 
         </Router>
           
-      </div>
+      </div> */}
       
       
     </>
