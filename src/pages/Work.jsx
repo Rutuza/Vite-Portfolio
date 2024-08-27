@@ -31,7 +31,7 @@ function Work() {
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-violet-500">
+              <a href="" className="hover:text-violet-500">
                 Projects
               </a>
             </li>
