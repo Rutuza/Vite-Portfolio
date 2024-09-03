@@ -24,8 +24,8 @@ function App() {
       {/* <About /> */}
       {/* <Skills /> */}
       {/* <Work /> */}
-      <Projects />
-      {/* <Contact /> */}
+      {/* <Projects /> */}
+      <Contact />
     </div>
 
       {/* <div id='root'>
