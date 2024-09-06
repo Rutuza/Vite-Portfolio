@@ -1,28 +1,31 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { init } from '@emailjs/browser';
 
-export const Contact = () => {
+const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, {
-        publicKey: 'YOUR_PUBLIC_KEY',
+    emailjs 
+      .sendForm('service_jp486xe', 'template_s5ocfi2', form.current, {
+        publicKey: '/test',
       })
       .then(
         () => {
-          console.log('SUCCESS!');
+          console.log(result.text);
+          console.log('Message sent');
         },
         (error) => {
-          console.log('FAILED...', error.text);
+          console.log(error.text);
+          console.log('Unable to send message', error.text);
         },
       );
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail}>
+    <form ref={form} onSubmit={sendEmail} className='grid grid-flow-row'>
       <label>Name</label>
       <input type="text" name="user_name" />
       <label>Email</label>
@@ -33,3 +36,5 @@ export const Contact = () => {
     </form>
   );
 };
+
+export default Contact

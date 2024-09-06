@@ -2,7 +2,6 @@ import React from "react";
 
 import cameraLens from "../assets/images/camera lens.jpg";
 import ezybit from "../assets/images/Ezybit.png";
-import butterfly from "../assets/images/butterfly.jpg";
 import fishes from "../assets/images/fishes.jpg";
 import streetlight from "../assets/images/streetlight img.jpg";
 

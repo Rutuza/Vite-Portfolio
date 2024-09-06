@@ -1,8 +1,6 @@
 import React from 'react';
 
-import anymatorImg from '../assets/images/anymator img.jpg';
 import chatappImg from '../assets/images/chatapp.jpg';
-import ezybit from '../assets/images/SDE app.jpg';
 import umbrella from '../assets/images/umbrella.jpg';
 
 function Projects() {

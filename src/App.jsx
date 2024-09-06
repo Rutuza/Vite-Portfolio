@@ -12,6 +12,7 @@ import Footer from './components/Footer'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Homepage from './pages/Homepage'
 import Projects from './pages/Projects'
+import Photography from './pages/Photography'
 
 function App() {
   
@@ -25,7 +26,8 @@ function App() {
       {/* <Skills /> */}
       {/* <Work /> */}
       {/* <Projects /> */}
-      <Contact />
+      <Photography />
+      {/* <Contact /> */}
     </div>
 
       {/* <div id='root'>
