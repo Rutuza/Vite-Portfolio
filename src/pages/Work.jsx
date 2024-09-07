@@ -3,7 +3,7 @@ import React from "react";
 import cameraLens from "../assets/images/camera lens.jpg";
 import ezybit from "../assets/images/Ezybit.png";
 import fishes from "../assets/images/fishes.jpg";
-import streetlight from "../assets/images/streetlight img.jpg";
+import streetlight from "../assets/images/streetlight.jpg";
 
 function Work() {
   const imageList = [
