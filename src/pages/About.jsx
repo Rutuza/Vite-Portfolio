@@ -5,7 +5,10 @@ import pfp from '../assets/svg/pfp.svg';
 import DownloadCVbtn from '../components/DownloadCVbtn';
 
 import Education from '../components/Education';
-import ExprienceDetails from '../components/ExperienceDetails';
+import Exprnce from '../components/Exprnce';
+import Certifications from '../components/Certifications';
+import KnownLanguages from '../components/KnownLanguages';
+
 
 
 function About() {
@@ -18,9 +21,12 @@ function About() {
       <AboutmeContent />
       <DownloadCVbtn />
 
-      <div className='relative'>
+      <div className='relative max-sm:grid max-sm:grid-flow-row'>
         <Education />
-        <ExprienceDetails />
+        <Exprnce />
+        <Certifications />
+        <KnownLanguages />
+        
       </div>
       
     </div>
