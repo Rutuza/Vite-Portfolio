@@ -49,7 +49,7 @@ function PhotographsPage() {
             </div>
           </div>
 
-          <div className="image3Container mt-10">
+          <div className="image3Container mt-10 relative">
             <div className="imgTitle text-2xl font-semibold font-pop max-sm:text-lg">03. Nighttime Nexus</div>
             <div className="imgContent flex flex-row justify-between items-center mt-4 max-sm:grid max-sm:grid-flow-row">
               <img className='w-4/12 float-left max-sm:w-full' src={nighttimeNexusImg} alt="" />
@@ -68,7 +68,7 @@ function PhotographsPage() {
             </div>
           </div>
 
-          <div className="image3Container mt-10">
+          <div className="image3Container mt-10 relative">
             <div className="imgTitle text-2xl font-semibold font-pop max-sm:text-lg">04. Coral Kalaiedoscope</div>
             <div className="imgContent flex flex-row justify-between items-center mt-4 max-sm:grid max-sm:grid-flow-row">
               <img className='w-4/12 float-left max-sm:w-full' src={fishesImg} alt="" />
