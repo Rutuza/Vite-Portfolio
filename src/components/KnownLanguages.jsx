@@ -7,14 +7,14 @@ function KnownLanguages() {
     { language: "Marathi", level: "fluent" },
   ];
   return (
-    <div>
+    <div className="relative w-1/2">
       <div className="flex justify-center items-center gap-2">
         <h4 className="text-xl font-medium">Languages</h4>
         <div className="w-full border-t-2 border-dotted border-gray-400 my-4"></div>
       </div>
       {/* dotted line */}
       <span className="text-base font-cvt text-violet-500 absolute right-1 top-4">
-        the journey where it all started
+        I am a bilingual person
       </span>
 
       <div style={{ fontFamily: "poppins" }}>
@@ -33,7 +33,6 @@ function KnownLanguages() {
               style={{
                 fontWeight: lang.level === "Fluent" ? "bold" : "normal",
                 color: "Black",
-
               }}
             >
               {lang.level}
