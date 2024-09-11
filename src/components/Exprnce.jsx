@@ -16,7 +16,7 @@ function Exprnce() {
 
   return (
     <>
-      <div className="my-8 relative w-1/2">
+      <div className="my-8 relative">
         <div className="flex justify-center items-center gap-2">
           <h4 className="text-xl font-medium">Experience</h4>
           <div className="w-full border-t-2 border-dotted border-gray-400 my-4"></div>

@@ -7,7 +7,7 @@ function KnownLanguages() {
     { language: "Marathi", level: "fluent" },
   ];
   return (
-    <div className="relative w-1/2">
+    <div className="relative">
       <div className="flex justify-center items-center gap-2">
         <h4 className="text-xl font-medium">Languages</h4>
         <div className="w-full border-t-2 border-dotted border-gray-400 my-4"></div>
