@@ -32,22 +32,7 @@ function About() {
         },
       ],
     },
-    {
-      title: "Experience",
-      subheading: "what I learnt in these four years?",
-      entry: [
-        {
-          date: "July - Sep 2022",
-          institution: "Teachnook Ed Tech",
-          location: "Bangalore",
-        },
-        {
-          date: "2018 - 2020",
-          institution: "Nullclass Ed Tech",
-          location: "Bangalore",
-        },
-      ],
-    },
+
 
     {
       title: "Certificates",
@@ -72,6 +57,22 @@ function About() {
     },
 
     {
+      title: "Experience",
+      subheading: "what I learnt in these four years?",
+      entry: [
+        {
+          date: "July - Sep 2022",
+          institution: "Teachnook Ed Tech",
+          location: "Bangalore",
+        },
+        {
+          date: "2018 - 2020",
+          institution: "Nullclass Ed Tech",
+          location: "Bangalore",
+        },
+      ],
+    },
+    {
       title: "Languages",
       subheading: "I am a bilingual person",
       entry: [
@@ -84,16 +85,16 @@ function About() {
 
   return (
     <>
-      <div className="p-4">
-        <div className="">
+      <div className="p-8">
+        <div className="md:flex md:items-center md:justify-between">
           <div className="photo">
             <img src={pfp} alt="" />
           </div>
-        </div>
         <AboutmeContent />
+        </div>
         <DownloadCVbtn />
 
-        <div className="relative">
+        <div className="relative grid sm:grid-cols-2 gap-10">
           {data.map((item, index) => (
             <Education
               key={index}

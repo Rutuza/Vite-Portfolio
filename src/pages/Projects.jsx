@@ -1,28 +1,40 @@
 import React from 'react';
-
-import chatappImg from '../assets/images/chatapp.jpg';
-import umbrella from '../assets/images/umbrella.jpg';
+// import { useState } from 'react';
+// import { Swiper, SwiperSlide } from 'swiper/react';
+// import 'swiper/css';
+// import 'swiper/css/pagination';
+// import 'swiper/css/navigation';
+// import { Pagination, Navigation } from 'swiper';
 
 function Projects() {
   return (
     <>
-     <div className='p-2 m-10'>
-      <div className='p-10'>
-        <h3 className='font-pop font-bold text-2xl'>Projects</h3>
+     <div className=''>
+      <div className='text-center text-4xl font-bold'>Projects</div>
 
-      <div className='mt-8 flex flex-row flex-wrap gap-14 items-center justify-center'>
-        <div>
-          <img src={chatappImg} alt="" className=''/>
-          <p className='mt-3 font-pop font-bold text-xl'>Chat Application</p>
+      <div className='flex flex-row flex-wrap gap-4 justify-center items-center my-10'>
+        <div className='relative flex flex-col items-center'>
+          <div className=' w-56 h-[30rem] border-2 rounded-md'></div>
+          <p className='font-cvt text-lg'>01. Weather Forecasting App</p>
         </div>
-
-        <div>
-          <img src={umbrella} alt="" className=''/>
-          <p className='mt-3 font-pop font-bold text-xl'>Weather App</p>
+        <div className='relative flex flex-col items-center'>
+          <div className=' w-56 h-[30rem] border-2 rounded-md'></div>
+          <p className='font-cvt text-lg'>02. Anymator - react library</p>
+        </div>
+        <div className='relative flex flex-col items-center'>
+          <div className=' w-56 h-[30rem] border-2 rounded-md'></div>
+          <p className='font-cvt text-lg'>03. Personal Portfolio</p>
+        </div>
+        <div className='relative flex flex-col items-center'>
+          <div className=' w-56 h-[30rem] border-2 rounded-md'></div>
+          <p className='font-cvt text-lg'>04. Ezybit software</p>
         </div>
       </div>
-      </div>
-     </div>
+
+      <hr className=''/>
+      <div className=' font'>sjahdjshdkj</div>
+     </div> 
+
     </>
   );
 }

@@ -13,7 +13,7 @@ function moreDetails({ title, subheading, entry }) {
           {subheading}
         </span>
 
-        <div className="mt-6 font-pop">
+        <div className="mt-6 font-pop mx-20">
           {entry.map((data, index) => (
             <div key={index} className="flex justify-between mb-2">
               <h6 className="text-gray-700 text-sm">

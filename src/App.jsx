@@ -22,8 +22,8 @@ function App() {
     <div className="App">
       <Navbar />
       {/* <Homepage /> */}
-      <About />
-      {/* <Skills /> */}
+      {/* <About /> */}
+      <Skills />
       {/* <Work /> */}
       {/* <Projects /> */}
       {/* <PhotographsPage /> */}
