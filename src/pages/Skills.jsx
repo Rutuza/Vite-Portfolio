@@ -16,8 +16,6 @@ const skills = [
   { id: '13', name: "AIML", description: "Data-driven intelligent systems" },
   { id: '14', name: "Bootstrap 3.0", description: "Responsive frontend framework" },
   
-  
-
 ];
 
 const Skills = () => {
