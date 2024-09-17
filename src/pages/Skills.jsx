@@ -13,8 +13,8 @@ const skills = [
   { id: '10', name: "SQL Server", description: "Relational database querying" },
   { id: '11', name: "Oracle PL/SQL", description: "Oracle procedural SQL" },
   { id: '12', name: "MongoDB", description: "NoSQL database solution" },
-  { id: '13', name: "AIML", description: "Data-driven intelligent systems" },
-  { id: '14', name: "Bootstrap 3.0", description: "Responsive frontend framework" },
+  { id: '13', name: "AIML", description: "Data-driven intelligent systems", dotvisible:false },
+  { id: '14', name: "Bootstrap 3.0", description: "Responsive frontend framework", dotvisible:false },
   
   
 
@@ -35,7 +35,7 @@ const Skills = () => {
               {skill.name}
             </h2>
             <p className="text-green-600 italic text-sm mt-1 font-medium">{skill.description}</p>
-            <div className="w-3 h-3 border border-black rounded-full bg-black shadow-lg"></div>
+            {dotvisible !== false && <div className="w-3 h-3 border border-black rounded-full bg-black shadow-lg"></div>}
           </div>
         ))}
       </div>
