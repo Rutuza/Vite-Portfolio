@@ -3,6 +3,8 @@ import React from 'react';
 import weatherImg from '../assets/images/umbrella.jpg';
 import ezybitImg from '../assets/images/Ezybit.png';
 import anymatorImg from '../assets/images/anymator.jpg';
+import portfolioImg from '../assets/images/portfolio.png';
+
 function Projects() {
   const projects = [
     {
@@ -39,7 +41,7 @@ function Projects() {
       id: '04',
       title: 'Portfolio website',
       type: 'Design & Development',
-      image: '',
+      image: portfolioImg,
       brief: 'The Personal Portfolio project aims to showcase your skills, experience, and projects in a visually appealing and professional manner. It serves as a digital resume and a platform to highlight your work to potential employers, clients, or collaborators.',
 
       about: 'The Personal Portfolio website is a professional platform designed to showcase skills, experience, and projects in a visually appealing and structured manner. It features a clean, user-friendly design that highlights key sections such as "About Me," "Skills," and "Projects." The project section includes detailed descriptions of completed work, along with technologies used, challenges faced, and solutions implemented, offering a comprehensive view of the developer’s capabilities. The website is fully responsive, ensuring seamless viewing across devices like mobile phones, tablets, and desktops. It also includes a contact form for potential employers or clients to reach out directly, along with links to social profiles such as LinkedIn and GitHub. The portfolio emphasizes both professionalism and creativity, presenting the user as a skilled and versatile developer.'
@@ -58,7 +60,7 @@ function Projects() {
             <img src={project.image} alt={project.title} className="w-full h-56 object-cover mb-4" />
             
             {/* Project Title & Type */}
-            <h2 className="text-2xl font-bold mb-2">{String(project.id).padStart(2, '0')}</h2>
+            <h2 className="text-4xl font-bold mb-2">{String(project.id).padStart(2, '0')}</h2>
             <div className='text-2xl font-semibold'>{project.title}</div>
             <p className="text-green-500 mb-2">{project.type}</p>
             
