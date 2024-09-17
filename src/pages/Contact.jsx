@@ -1,40 +1,37 @@
-import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
-import { init } from '@emailjs/browser';
+import React from 'react';
 
-const Contact = () => {
-  const form = useRef();
-
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs 
-      .sendForm('service_jp486xe', 'template_s5ocfi2', form.current, {
-        publicKey: '/test',
-      })
-      .then(
-        () => {
-          console.log(result.text);
-          console.log('Message sent');
-        },
-        (error) => {
-          console.log(error.text);
-          console.log('Unable to send message', error.text);
-        },
-      );
-  };
-
+function Contact() {
   return (
-    <form ref={form} onSubmit={sendEmail} className='grid grid-flow-row'>
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
-    </form>
-  );
-};
+    <>
+     <div className='px-16 p-8'>
+        <div className="title text-xl font-pop font-semibold">Contact</div>
+        <h1 className='text-right text-6xl'>hello.jyotikadalal.com</h1>
 
-export default Contact
+        <form action="">
+          <div className="flex flex-row gap-16 items-center">
+            <div className='grid w-80'>
+              <label htmlFor="">Name</label>
+              <input type="text" name="" id="" placeholder='name' className='border-black border'/>
+            </div>
+            <div className='grid w-80'>
+              <label htmlFor="">Email</label>
+              <input type="email" name="" id="" placeholder='name' className='border-black border'/>
+            </div>
+
+          </div>
+            <div className="subject w-1/2 grid">
+              <label htmlFor="">Subject</label>
+              <input type="text" name="" id="" placeholder='subject' className='border-black border'/>
+            </div>
+
+            <div className="mesaage w-1/2 grid">
+              <label htmlFor="">Message</label>
+              <textarea name="" id=""  placeholder='message' className='border-black border'></textarea>
+            </div>
+        </form>
+     </div> 
+    </>
+  );
+}
+
+export default Contact;
