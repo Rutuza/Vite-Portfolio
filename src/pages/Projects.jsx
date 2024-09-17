@@ -8,7 +8,7 @@ function Projects() {
     {
       id: '01',
       title: 'Weather Application',
-      type: 'Frontend Developement',
+      type: 'Frontend Development',
       image: weatherImg,
       brief: 'The Weather App project aims to provide users with real-time weather information for their current location or any specified location. The app will include features such as temperature, humidity, wind speed, and weather conditions (e.g., sunny, rainy, cloudy) with forecasts for the coming days.',
 
@@ -60,18 +60,18 @@ function Projects() {
             {/* Project Title & Type */}
             <h2 className="text-2xl font-bold mb-2">{String(project.id).padStart(2, '0')}</h2>
             <div className='text-2xl font-semibold'>{project.title}</div>
-            <p className="text-sm text-green-500 mb-2">{project.type}</p>
+            <p className="text-green-500 mb-2">{project.type}</p>
             
             {/* Project Brief */}
             <div className=" mt-16">
               <h3 className="text-lg font-semibold mb-4">Project brief</h3>
-              <p className="text-base text-gray-700 mb-4 text-justify">{project.brief}</p>
+              <p className="text-base text-gray-700 mb-4 text-left max-sm:text-justify max-lg:text-justify">{project.brief}</p>
             </div>
             
             {/* About Project */}
             <div className='mt-16'>
               <h3 className="text-lg font-semibold mb-4">About project</h3>
-              <p className="text-base text-gray-700 mb-4 text-justify">{project.about}</p>
+              <p className="text-base text-gray-700 mb-4 text-left max-sm:text-justify max-lg:text-justify">{project.about}</p>
             </div>
           </div>
         ))}
