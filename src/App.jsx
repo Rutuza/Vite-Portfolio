@@ -5,14 +5,12 @@ import './components/Navbar'
 import Navbar from './components/Navbar'
 import About from './pages/About'
 import Skills from './pages/Skills'
-import Work from './pages/Work'
 import Contact from './pages/Contact'
 import Footer from './components/Footer'
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Homepage from './pages/Homepage'
 import Projects from './pages/Projects'
-import PhotographsPage from './pages/PhotographsPage'
 
 function App() {
   
@@ -21,12 +19,10 @@ function App() {
     <>
     <div className="App">
       <Navbar />
-      {/* <Homepage /> */}
-      {/* <About /> */}
-      {/* <Skills /> */}
-      {/* <Work /> */}
-      {/* <Projects /> */}
-      {/* <PhotographsPage /> */}
+      <Homepage /> 
+      <About />
+      <Skills />
+      <Projects />
       <Contact />
     </div>
 

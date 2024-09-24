@@ -33,7 +33,7 @@ const Skills = () => {
               {skills.name}
             </h2>
             <p className="text-green-600 italic text-sm mt-1 font-medium">{skills.description}</p>
-            {dotvisible !== false && <div className="w-3 h-3 border border-black rounded-full bg-black shadow-lg"></div>}
+            {skills.dotvisible !== false && <div className="w-3 h-3 border border-black rounded-full bg-black shadow-lg absolute mt-44"></div>}
           </div>
         ))}
       </div>
