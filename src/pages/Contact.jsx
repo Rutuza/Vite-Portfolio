@@ -3,7 +3,7 @@ import React from 'react'
 function Contact() {
   return (
     <div className='p-4'>
-      <div className="pageName text-xl font-medium">Contact</div>
+      <div className="text-4xl font-bold text-left mb-8">Contact</div>
       <div className='max-sm:text-2xl max-sm:text-center sm:text-right sm:text-4xl lg:text-6xl font-medium mt-8'>dalal.jyotika05@gmail.com</div>
       <div className="flex items-center justify-center min-h-screen">
         <form className="bg-white p-8 rounded-lg shadow-lg w-full max-w-lg">

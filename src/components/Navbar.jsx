@@ -7,7 +7,7 @@ function Navbar() {
   const menuItems = ["Home", "About", "Skills", "Work", "Contact"];
   const [isVisible, setIsVisible] = useState(true);
   return (
-    <div className="sticky top-0 z-10 bg-white">
+    <div className="sticky top-0 z-10 bg-cream">
       <header className="relative">
         <nav className="px-10 flex justify-between items-center border-b-2 border-gray-900">
           <div className="flex items-center gap-2">

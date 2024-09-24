@@ -5,7 +5,7 @@ export default {
     extend: {
       colors: {
         warmGray:'#1D1C1C',
-        cream:'#F4F0ED',  
+        cream:'#F4F0ED', 
         grayscale: '#313131',
 
       }, 
@@ -26,6 +26,10 @@ export default {
           '0%': { transform: "translateX(0%)" },
           '100%': { transform: "translateX(-50%) "},
         },
+        blink: {
+          '0%': 100% { opacity: 1},
+          '50%': { opacity: 0}
+        }
       },
 
       animation: {

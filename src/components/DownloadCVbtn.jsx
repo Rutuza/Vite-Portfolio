@@ -33,7 +33,7 @@ const DownloadCV = () => {
         {/* Sliding background animation */}
         <span className="absolute inset-0 w-full h-full bg-black transition-transform duration-500 transform -translate-y-full group-hover:translate-y-0"></span>
         {/* Text changes color on hover */}
-        <span className="relative z-10 transition-colors duration-300 group-hover:text-violet-400">
+        <span className="relative z-1 transition-colors duration-300 group-hover:text-violet-400">
           Download CV
         </span>
       </a>
