@@ -25,18 +25,22 @@ import React from 'react';
 const DownloadCV = () => {
   return (
     <div className='flex justify-center items-center mt-8'>
-      <a
-        href="/your-resume.pdf" // Replace with your actual path
-        download
+      <button>
+      <a href={`${process.env.PUBLIC_URL}/JyotikaDalal.pdf`} target="_blank" rel="noopener noreferrer">Download PDF</a>
+      
+
+      </button>
+      {/* <a
+    
         className="relative w-1/2 rounded-full text-center inline-block px-6 py-3 font-semibold border-2 border-black overflow-hidden group"
       >
-        {/* Sliding background animation */}
+        
         <span className="absolute inset-0 w-full h-full bg-black transition-transform duration-500 transform -translate-y-full group-hover:translate-y-0"></span>
-        {/* Text changes color on hover */}
+        
         <span className="relative z-1 transition-colors duration-300 group-hover:text-violet-400">
           Download CV
         </span>
-      </a>
+      </a> */}
     </div>
   );
 };
