@@ -25,7 +25,7 @@ function Navbar() {
               {menuItems.map((item) => (
                 <li
                   key={item}
-                  className="max-sm:w-full max-sm:py-4 max-sm:text-2xl max-sm:hover:text-violet-400">
+                  className="max-sm:w-full max-sm:py-4 max-sm:text-2xl">
                   <a href="#">{item}</a>
                 </li>
               ))}

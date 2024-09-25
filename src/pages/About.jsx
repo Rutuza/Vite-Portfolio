@@ -86,7 +86,7 @@ function About() {
   return (
     <>
       <div className="p-8">
-      <div className="text-4xl font-bold text-left mb-8">Skills</div>
+      <div className="text-4xl font-bold text-left mb-8">About Me</div>
         <div className="md:flex md:items-center md:justify-between my-16">
           <div className="photo">
             <img src={pfp} alt="" />

@@ -20,12 +20,10 @@ function App() {
     <div className="App p-2 bg-cream">
       <Navbar />
       <Homepage /> 
-      <hr className='border-black border-2 my-20'/>
       <About />
-      <hr className='border-black border-2 my-20'/>
       <Skills />
       <Projects />
-      <hr className='border-black border-2 my-16'/>
+      
       <Contact />
     </div>
       <Footer />
