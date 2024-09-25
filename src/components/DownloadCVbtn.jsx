@@ -25,22 +25,30 @@ import React from 'react';
 const DownloadCV = () => {
   return (
     <div className='flex justify-center items-center mt-8'>
-      <button>
-      <a href={`${process.env.PUBLIC_URL}/JyotikaDalal.pdf`} target="_blank" rel="noopener noreferrer">Download PDF</a>
-      
-
-      </button>
-      {/* <a
+      {/* <a className="relative w-1/4 rounded-full text-center inline-block px-6 py-3 font-semibold border-2 border-black overflow-hidden group"
+      href="/JyotikaDalalResume.pdf" // The file should be in the public folder
+      download="JyotikaDalalResume"  // This will download the file when clicked
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <button>Download CV</button>
+    </a> */}
+      <a
     
         className="relative w-1/2 rounded-full text-center inline-block px-6 py-3 font-semibold border-2 border-black overflow-hidden group"
+
+        href="/JyotikaDalalResume.pdf" // The file should be in the public folder
+        download="JyotikaDalalResume"  // This will download the file when clicked
+        target="_blank"
+        rel="noopener noreferrer"
       >
         
-        <span className="absolute inset-0 w-full h-full bg-black transition-transform duration-500 transform -translate-y-full group-hover:translate-y-0"></span>
+        <span className="absolute inset-0 w-full h-full bg-black transition-transform duration-700 transform -translate-y-full group-hover:translate-y-0"></span>
         
         <span className="relative z-1 transition-colors duration-300 group-hover:text-violet-400">
           Download CV
         </span>
-      </a> */}
+      </a>
     </div>
   );
 };
