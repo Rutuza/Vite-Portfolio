@@ -51,7 +51,7 @@ function Projects() {
   return (
     <>
      <div className="container mx-auto py-8">
-      <h1 className="text-4xl font-bold text-left mb-8">Projects</h1>
+      <h1 className="text-4xl font-bold my-16 text-center">Projects</h1>
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {projects.map((project) => (
@@ -60,19 +60,19 @@ function Projects() {
             <img src={project.image} alt={project.title} className="w-full h-56 object-cover mb-4" />
             
             {/* Project Title & Type */}
-            <h2 className="text-4xl font-bold mb-2">{String(project.id).padStart(2, '0')}</h2>
-            <div className='text-2xl font-semibold'>{project.title}</div>
-            <p className="text-green-500 mb-2">{project.type}</p>
+            <h2 className="text-4xl font-bold mb-2 text-[#ABA7A7]">{String(project.id).padStart(2, '0')}</h2>
+            <div className='text-xl font-semibold'>{project.title}</div>
+            <p className="text-violet-500 mb-2 text-sm">{project.type}</p>
             
             {/* Project Brief */}
             <div className=" mt-16">
-              <h3 className="text-lg font-semibold mb-4">Project brief</h3>
+              <h3 className="text-lg font-semibold mb-4 text-yellow-500">Project brief</h3>
               <p className="text-base text-gray-700 mb-4 text-left max-sm:text-justify max-lg:text-justify">{project.brief}</p>
             </div>
             
             {/* About Project */}
             <div className='mt-16'>
-              <h3 className="text-lg font-semibold mb-4">About project</h3>
+              <h3 className="text-lg font-semibold mb-2 text-yellow-500">About project</h3>
               <p className="text-base text-gray-700 mb-4 text-left max-sm:text-justify max-lg:text-justify">{project.about}</p>
             </div>
           </div>

@@ -21,12 +21,12 @@ const skills = [
 const Skills = () => {
   return (
     <div className="flex flex-col justify-center min-h-screen">
-      <div className="text-4xl font-bold text-left mb-8">Skills</div>
+      <div className="text-4xl font-bold text-center my-20">Skills</div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 p-4">
         {skills.map((skills) => (
           <div
             key={skills.id}
-            className="flex flex-col items-center p-6"
+            className="flex flex-col items-center p-6 text-gray-400"
           >
             <span className="text-7xl font-bold text-black">{skills.id}</span>
             <h2 className="text-xl font-semibold text-[#ABA7A7] mt-2">

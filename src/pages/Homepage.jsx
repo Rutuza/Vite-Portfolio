@@ -20,7 +20,7 @@ function Homepage() {
         </div>
 
         <div className='w-full overflow-x-hidden '>
-          <img className='w-[200vw] max-w-none animate-scrollGrid translate-x-0' srcSet="https://unsplash.com/assets/api/api-photo-grid@2x-388d83e210e483af53295e6574d71e343557875502b68b56b3cf0e1c0040b440.jpg" alt="" srcset="" />
+          <img className='w-[200vw] max-w-none animate-scrollGrid translate-x-0' srcSet="https://unsplash.com/assets/api/api-photo-grid@2x-388d83e210e483af53295e6574d71e343557875502b68b56b3cf0e1c0040b440.jpg" alt="photo grid"/>
         </div>
       </div>
     </>
