@@ -9,7 +9,7 @@ function Navbar() {
   return (
     <div className="sticky top-0 z-10 bg-cream">
       <header className="relative">
-        <nav className="px-10 flex justify-between items-center border-b-2 border-gray-900">
+        <nav className="flex justify-between items-center border-b-2 border-gray-900">
           <div className="flex items-center gap-2">
             <img src={logo} alt="" />
             <div className="name text-sm">Jyotika Dalal</div>
@@ -21,7 +21,7 @@ function Navbar() {
               isVisible && " -translate-y-[300%]"
             } `}
           >
-            <ul className=" font-pop font-medium flex justify-center items-center max-sm:flex-col sm:gap-4">
+            <ul className=" font-pop font-semibold gap-x-10 flex justify-center items-center max-sm:flex-col">
               {menuItems.map((item) => (
                 <li
                   key={item}

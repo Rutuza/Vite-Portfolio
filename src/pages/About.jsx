@@ -86,8 +86,12 @@ function About() {
   return (
     <>
       <div className="mt-16">
-      <div className="text-4xl font-bold text-left mb-8 text-center">About Me</div>
-        <div className="md:flex md:items-center md:justify-between my-16">
+        <div className="flex items-center justify-center absolute">
+          <div className="w-14 h-14 border-2 border-yellow-300 rounded-full bg-yellow-300"></div>
+          <div className="text-3xl font-semibold italic">About Me</div>
+        </div>
+      {/* <div className="text-4xl font-bold mb-8 text-center">About Me</div> */}
+        <div className="md:flex md:justify-between my-16">
           <div className="photo">
             <img src={pfp} alt="" />
           </div>
