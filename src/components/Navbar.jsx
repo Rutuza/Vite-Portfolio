@@ -2,9 +2,16 @@ import React, { useState } from "react";
 import logo from "../assets/svg/logo.svg";
 import { RxCross2 } from "react-icons/rx";
 import Footer from "./Footer";
+import { Link } from "react-router-dom";
 
-function Navbar() {
-  const menuItems = ["Home", "About", "Skills", "Work", "Contact"];
+const Navbar = () => {
+  const menuItems = [
+    { name: 'Homepage', url: '/' },
+    { name: 'About', url: '/about' },
+    { name: 'Skills', url: '/skills' },
+    { name: 'Projects', url: '/projects'},
+    { name: 'Contact', url: '/contact' },
+  ];
   const [isVisible, setIsVisible] = useState(true);
   return (
     <div className="sticky top-0 z-10 bg-cream">
@@ -26,7 +33,7 @@ function Navbar() {
                 <li
                   key={item}
                   className="max-sm:w-full max-sm:py-4 max-sm:text-2xl">
-                  <a href="#">{item}</a>
+                  <a href={item.url}>{item.name}</a>
                 </li>
               ))}
             </ul>

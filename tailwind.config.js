@@ -12,6 +12,7 @@ export default {
       fontFamily: {
         pop: "Poppins",
         cvt: "caveat",
+        mate: "Mate",
       }, 
 
       screens: {

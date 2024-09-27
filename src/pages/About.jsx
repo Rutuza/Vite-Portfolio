@@ -9,7 +9,7 @@ import Exprnce from "../components/Exprnce";
 import Certifications from "../components/Certifications";
 import KnownLanguages from "../components/KnownLanguages";
 
-function About() {
+const About = () => {
   const data = [
     {
       title: "Education",
@@ -85,10 +85,10 @@ function About() {
 
   return (
     <>
-      <div className="my-10">
+      <div className="my-14 px-6">
 
-      <div className="text-4xl font-bold mb-8 text-center">About Me</div>
-        <div className="wrapper">
+      <div className="text-4xl font-bold font-mate mb-8 text-center">About Me</div>
+        <div className="wrapper mt-20">
           <div className="heroSection my-10 relative flex flex-wrap justify-between">
               <div className="grid grid-flow-row">
                 <img src={pfp} alt=""/>
@@ -108,7 +108,7 @@ function About() {
                 <DownloadCVbtn />
               </div>
           </div>
-          <div className="relative grid sm:grid-cols-2 gap-10">
+          <div className="relative grid sm:grid-cols-2 gap-20">
               {data.map((item, index) => (
                 <Education
                   key={index}
@@ -119,10 +119,6 @@ function About() {
               ))}
           </div>
         </div>
-        
-          
-        
-
       </div>
     </>
   );

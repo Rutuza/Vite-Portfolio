@@ -20,8 +20,8 @@ const skills = [
 
 const Skills = () => {
   return (
-    <div className="flex flex-col justify-center min-h-screen">
-      <div className="text-4xl font-bold text-center font-pop">Skills</div>
+    <div className="flex flex-col justify-center min-h-screen my-14">
+      <div className="text-4xl font-bold text-center font-mate">My Skills</div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 p-4">
         {skills.map((skills) => (
           <div

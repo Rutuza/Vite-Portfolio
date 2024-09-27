@@ -5,7 +5,7 @@ import ezybitImg from '../assets/images/Ezybit.png';
 import anymatorImg from '../assets/images/anymator.jpg';
 import portfolioImg from '../assets/images/portfolio.png';
 
-function Projects() {
+const Projects = () => {
   const projects = [
     {
       id: '01',
@@ -50,10 +50,10 @@ function Projects() {
 
   return (
     <>
-     <div className="container">
-      <h1 className="text-4xl font-bold text-center">Projects</h1>
+     <div className="container my-14">
+      <h1 className="text-5xl font-bold text-center font-mate">Projects</h1>
       
-      <div className="grid grid-cols-1 mt-8 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="grid grid-cols-1 mt-14 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {projects.map((project) => (
           <div key={project.id}>
             {/* Project Image */}

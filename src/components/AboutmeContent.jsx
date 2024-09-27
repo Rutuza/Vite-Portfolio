@@ -1,7 +1,8 @@
 import React from 'react';
 import Education from './moreDetails'
 import DownloadCV from './DownloadCVbtn';
-function AboutmeContent() {
+
+const AboutmeContent = () => {
   return (
     <>
       <div className='max-sm:text-base text-justify max-sm:mt-8 sm:mt-8'>

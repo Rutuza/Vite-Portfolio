@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Contact() {
+const Contact = () => {
   return (
     <div className='p-4'>
-      <div className="text-4xl font-bold text-center">Contact</div>
+      <div className="text-5xl font-bold text-center font-mate">Contact</div>
       {/* <div className='max-sm:text-2xl max-sm:text-center sm:text-right sm:text-4xl lg:text-6xl font-medium mt-8'>dalal.jyotika05@gmail.com</div> */}
       <div className="flex items-center justify-center min-h-screen">
         <form className="bg-transparent rounded-lg w-full max-w-lg">
