@@ -85,30 +85,44 @@ function About() {
 
   return (
     <>
-      <div className="mt-16">
-        <div className="flex items-center justify-center absolute">
-          <div className="w-14 h-14 border-2 border-yellow-300 rounded-full bg-yellow-300"></div>
-          <div className="text-3xl font-semibold italic">About Me</div>
-        </div>
-      {/* <div className="text-4xl font-bold mb-8 text-center">About Me</div> */}
-        <div className="md:flex md:justify-between my-16">
-          <div className="photo">
-            <img src={pfp} alt="" />
-          </div>
-        <AboutmeContent />
-        </div>
-        <DownloadCVbtn />
+      <div className="my-10">
 
-        <div className="relative grid sm:grid-cols-2 gap-10">
-          {data.map((item, index) => (
-            <Education
-              key={index}
-              title={item.title}
-              subheading={item.subheading}
-              entry={item.entry}
-            />
-          ))}
+      <div className="text-4xl font-bold mb-8 text-center">About Me</div>
+        <div className="wrapper">
+          <div className="heroSection my-10 relative flex flex-wrap justify-between">
+              <div className="grid grid-flow-row">
+                <img src={pfp} alt=""/>
+                <div className="flex flex-row gap-4 items-start mt-10">
+                  <div className="verticalLine border-black w-1 h-28 border-2"></div>
+                  <div className="ph-em-ad">
+                    <ul>
+                      <li className="flex flex-row gap-3 my-1"><span className="font-bold">ph.</span>8319278208</li>
+                      <li className="flex flex-row gap-3 my-1"><span className="font-bold">em.</span>dalal.jyotika05@gmail.com</li>
+                      <li className="flex flex-row gap-3 my-1"><span className="font-bold">ad.</span>nagpur, M.H, India</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="grid grid-flow-row gap-8 relative max-sm:w-fit sm:w-fit lg:w-1/2">
+                <AboutmeContent />
+                <DownloadCVbtn />
+              </div>
+          </div>
+          <div className="relative grid sm:grid-cols-2 gap-10">
+              {data.map((item, index) => (
+                <Education
+                  key={index}
+                  title={item.title}
+                  subheading={item.subheading}
+                  entry={item.entry}
+                />
+              ))}
+          </div>
         </div>
+        
+          
+        
+
       </div>
     </>
   );

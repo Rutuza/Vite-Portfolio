@@ -50,12 +50,12 @@ function Projects() {
 
   return (
     <>
-     <div className="container mx-auto py-8">
-      <h1 className="text-4xl font-bold my-16 text-center">Projects</h1>
+     <div className="container">
+      <h1 className="text-4xl font-bold text-center">Projects</h1>
       
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="grid grid-cols-1 mt-8 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {projects.map((project) => (
-          <div key={project.id} className="p-6">
+          <div key={project.id}>
             {/* Project Image */}
             <img src={project.image} alt={project.title} className="w-full h-56 object-cover mb-4" />
             
@@ -65,15 +65,15 @@ function Projects() {
             <p className="text-violet-500 mb-2 text-sm">{project.type}</p>
             
             {/* Project Brief */}
-            <div className=" mt-16">
-              <h3 className="text-lg font-semibold mb-4 text-yellow-500">Project brief</h3>
-              <p className="text-base text-gray-700 mb-4 text-left max-sm:text-justify max-lg:text-justify">{project.brief}</p>
+            <div className="my-10">
+              <h3 className="text-lg font-semibold text-yellow-500">Project brief</h3>
+              <p className="text-base max-sm:text-sm text-gray-700 mb-4 text-left max-sm:text-justify max-lg:text-justify">{project.brief}</p>
             </div>
             
             {/* About Project */}
-            <div className='mt-16'>
+            <div>
               <h3 className="text-lg font-semibold mb-2 text-yellow-500">About project</h3>
-              <p className="text-base text-gray-700 mb-4 text-left max-sm:text-justify max-lg:text-justify">{project.about}</p>
+              <p className="text-base max-sm:text-sm text-gray-700 mb-4 text-left max-sm:text-justify max-lg:text-justify">{project.about}</p>
             </div>
           </div>
         ))}

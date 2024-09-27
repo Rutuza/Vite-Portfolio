@@ -24,21 +24,12 @@ import React from 'react';
 
 const DownloadCV = () => {
   return (
-    <div className='flex justify-center items-center mt-8'>
-      {/* <a className="relative w-1/4 rounded-full text-center inline-block px-6 py-3 font-semibold border-2 border-black overflow-hidden group"
-      href="/JyotikaDalalResume.pdf" // The file should be in the public folder
-      download="JyotikaDalalResume"  // This will download the file when clicked
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <button>Download CV</button>
-    </a> */}
+    <div className='flex justify-center items-center'>
       <a
-    
-        className="relative w-1/2 rounded-full text-center inline-block px-6 py-3 font-semibold border-2 border-black overflow-hidden group"
+        className="relative my-4 rounded-full text-center inline-block px-6 py-3 w-1/2 font-semibold border-2 border-black overflow-hidden group max-sm:w-full"
 
-        href="/JyotikaDalalResume.pdf" // The file should be in the public folder
-        download="JyotikaDalalResume"  // This will download the file when clicked
+        href="/JyotikaDalalResume.pdf" 
+        download="JyotikaDalalResume"
         target="_blank"
         rel="noopener noreferrer"
       >

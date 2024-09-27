@@ -21,7 +21,7 @@ const skills = [
 const Skills = () => {
   return (
     <div className="flex flex-col justify-center min-h-screen">
-      <div className="text-4xl font-bold text-center my-20">Skills</div>
+      <div className="text-4xl font-bold text-center font-pop">Skills</div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 p-4">
         {skills.map((skills) => (
           <div
@@ -33,7 +33,7 @@ const Skills = () => {
               {skills.name}
             </h2>
             <p className=" text-[#836EB0] italic text-center text-sm mt-1 font-medium">{skills.description}</p>
-            {skills.dotvisible !== false && <div className="w-3 h-3 border border-black rounded-full bg-black shadow-lg absolute mt-44"></div>}
+            {/* {skills.dotvisible !== false && <div className="w-3 h-3 border border-black rounded-full bg-black shadow-lg absolute mt-44"></div>} */}
           </div>
         ))}
       </div>
