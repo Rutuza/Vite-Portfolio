@@ -1,5 +1,4 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar"; // Adjust path as per your folder structure
 import Homepage from "./pages/Homepage";
 import About from "./pages/About";
@@ -9,16 +8,26 @@ import Contact from "./pages/Contact";
 
 const App = () => {
   return (
-    <Router>
+    <>
+    <div className="bg-cream">
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Homepage />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/skills" element={<Skills />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-    </Router>
+      <div id="home">
+        <Homepage />
+      </div>
+      <div id="about">
+        <About />
+      </div>
+      <div id="skills">
+        <Skills />
+      </div>
+      <div id="projects">
+        <Projects />
+      </div>
+      <div id="contact">
+        <Contact />
+      </div>
+    </div>
+    </>
   );
 };
 

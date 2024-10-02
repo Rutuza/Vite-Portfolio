@@ -1,19 +1,18 @@
 import React, { useState } from "react";
 import logo from "../assets/svg/logo.svg";
 import { RxCross2 } from "react-icons/rx";
-import { Link } from "react-router-dom";
 
 // Navbar Component
 const Navbar = () => {
   const routes = [
-    { path: "/", label: "Home", exact: true },
-    { path: "/about", label: "About" },
-    { path: "/skills", label: "Skills" },
-    { path: "/projects", label: "Projects" },
-    { path: "/contact", label: "Contact" },
+    { path: "#home", label: "Home" },
+    { path: "#about", label: "About" },
+    { path: "#skills", label: "Skills" },
+    { path: "#projects", label: "Projects" },
+    { path: "#contact", label: "Contact" },
   ];
 
-  const [isVisible, setIsVisible] = useState(true);
+  const [isVisible, setIsVisible] = useState(false);
 
   return (
     <div className="sticky top-0 z-10 bg-cream">
@@ -37,9 +36,9 @@ const Navbar = () => {
                   key={route.path}
                   className="max-sm:w-full max-sm:py-4 max-sm:text-2xl"
                 >
-                  <Link to={route.path} onClick={() => setIsVisible(!isVisible)}>
+                  <a href={route.path} onClick={() => setIsVisible(!isVisible)}>
                     {route.label}
-                  </Link>
+                  </a>
                 </li>
               ))}
             </ul>
