@@ -5,11 +5,11 @@ import { RxCross2 } from "react-icons/rx";
 // Navbar Component
 const Navbar = () => {
   const routes = [
-    { path: "#home", label: "Home" },
-    { path: "#about", label: "About" },
-    { path: "#skills", label: "Skills" },
-    { path: "#projects", label: "Projects" },
-    { path: "#contact", label: "Contact" },
+    { path: "home", label: "Home" },
+    { path: "about", label: "About" },
+    { path: "skills", label: "Skills" },
+    { path: "projects", label: "Projects" },
+    { path: "contact", label: "Contact" },
   ];
 
   const [isVisible, setIsVisible] = useState(false);

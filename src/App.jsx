@@ -11,19 +11,19 @@ const App = () => {
     <>
     <div className="bg-cream">
       <Navbar />
-      <div id="home">
+      <div className="home">
         <Homepage />
       </div>
-      <div id="about">
+      <div className="about">
         <About />
       </div>
-      <div id="skills">
+      <div className="skills">
         <Skills />
       </div>
-      <div id="projects">
+      <div className="projects">
         <Projects />
       </div>
-      <div id="contact">
+      <div className="contact">
         <Contact />
       </div>
     </div>
