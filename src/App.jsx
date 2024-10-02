@@ -1,51 +1,25 @@
-import React from 'react'
-import './App.css'
-import './components/Navbar'
-
-import Navbar from './components/Navbar'
-
-import Homepage from './pages/Homepage'
-import About from './pages/About'
-import Skills from './pages/Skills'
-import Projects from './pages/Projects'
-import Contact from './pages/Contact'
-
-import Footer from './components/Footer'
-
-import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom"
-import Navigation from './components/Navigation'
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Navbar from "./components/Navbar"; // Adjust path as per your folder structure
+import Homepage from "./pages/Homepage";
+import About from "./pages/About";
+import Skills from "./pages/Skills";
+import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
 
 const App = () => {
   return (
-    <>
-    {/* <div className="App p-2 bg-cream">
+    <Router>
       <Navbar />
-      <Homepage /> 
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
-    </div> */}
-      
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/skills" element={<Skills />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </Router>
+  );
+};
 
-      <Router>
-        <div className="App bg-cream">
-
-          {/* <Navigation /> */}
-          <Navbar />
-          <Routes>
-            <Route exact path='/' Component={Homepage}/>
-            <Route path='/about' Component={About} />
-            <Route path='/skills' Component={Skills} />
-            <Route path='/projects' Component={Projects} />
-            <Route path='/contact' Component={Contact} />
-          </Routes>
-          <Footer />
-        </div>
-      </Router>
-
-    </>
-  )
-}
-
-export default App
+export default App;
