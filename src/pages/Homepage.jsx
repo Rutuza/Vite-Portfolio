@@ -15,8 +15,8 @@ const Homepage = () => {
         </div>
 
         <div className='flex items-center justify-between p-2 mt-6 text-lg font-medium'>
-          <div className='max-sm:text-xs'>Based in Maharashtra, India</div>
-          <div className='max-sm:text-xs'>Web Developer + <span className='text-gray-500'>Figma Designer</span></div>
+          <div className='max-sm:text-xs'>Lives in Maharashtra, India</div>
+          <div className='max-sm:text-xs'>Web Developer + <span className='text-gray-500'>UI/UX Designer</span></div>
         </div>
 
         <div className='w-full overflow-x-hidden '>
