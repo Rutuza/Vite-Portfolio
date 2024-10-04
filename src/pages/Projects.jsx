@@ -50,10 +50,10 @@ const Projects = () => {
 
   return (
     <>
-     <div className="container my-14">
+     <section className="pt-7">
       <h1 className="text-5xl font-bold text-center font-mate">Projects</h1>
       
-      <div className="grid grid-cols-1 mt-14 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="wrapper px-8 grid grid-cols-1 mt-14 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {projects.map((project) => (
           <div key={project.id}>
             {/* Project Image */}
@@ -78,7 +78,7 @@ const Projects = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
     </>
   );
 }

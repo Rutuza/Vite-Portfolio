@@ -85,10 +85,9 @@ const About = () => {
 
   return (
     <>
-      <div className="my-14 px-6">
-
-      <div className="text-4xl font-bold font-mate mb-8 text-center">About Me</div>
-        <div className="wrapper mt-20">
+      <section className="pt-7" id="about">
+      <div className="text-4xl font-semibold  font-mate text-center">About Me</div>
+        <div className="wrapper px-8">
           <div className="heroSection my-10 relative flex flex-wrap justify-between">
               <div className="grid grid-flow-row">
                 <img src={pfp} alt=""/>
@@ -119,7 +118,7 @@ const About = () => {
               ))}
           </div>
         </div>
-      </div>
+      </section>
       
     </>
   );

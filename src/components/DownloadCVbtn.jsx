@@ -26,7 +26,7 @@ const DownloadCV = () => {
   return (
     <div className='flex justify-center items-center'>
       <a
-        className="relative my-4 rounded-full text-center inline-block px-6 py-3 w-1/2 font-semibold border-2 border-black overflow-hidden group max-sm:w-2/3 sm:w-1/2"
+        className="relative my-4 rounded-full text-center inline-block px-6 py-3 w-1/2 font-semibold border-2 border-violet-800 hover:border-black overflow-hidden group max-sm:w-2/3 sm:w-1/2"
 
         href="/JyotikaDalalResume.pdf" 
         download="JyotikaDalalResume"

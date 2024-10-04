@@ -4,7 +4,7 @@ const Homepage = () => {
   
   return (
     <>
-      <div className='mt-4'>
+      <section className='pt-7'>
         <div className="wraper grid-flow-row grid justify-center gap-2">
           <div className='flex items-center gap-2 justify-center font-medium'>
             <div className="circle w-2.5 h-2.5 bg-green-400 rounded-full "></div>
@@ -22,7 +22,7 @@ const Homepage = () => {
         <div className='w-full overflow-x-hidden '>
           <img className='w-[200vw] max-w-none animate-scrollGrid translate-x-0' srcSet="https://unsplash.com/assets/api/api-photo-grid@2x-388d83e210e483af53295e6574d71e343557875502b68b56b3cf0e1c0040b440.jpg" alt="photo grid"/>
         </div>
-      </div>
+      </section>
     </>
   );
 }

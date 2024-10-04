@@ -5,6 +5,8 @@ import About from "./pages/About";
 import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
+import footer from "./components/Footer";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -26,6 +28,7 @@ const App = () => {
       <div className="contact">
         <Contact />
       </div>
+      <Footer />
     </div>
     </>
   );
