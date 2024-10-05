@@ -21,7 +21,10 @@ const skills = [
 const Skills = () => {
   return (
     <section className="flex flex-col justify-center min-h-screen pt-7">
-      <div className="text-4xl font-bold text-center font-mate">My Skills</div>
+      <div>
+        <div className="text-center font-mate font-semibold text-5xl ">My Skills</div>
+        <div className="text-center font-mate text-yellow-400 italic">"what can I do"</div>
+      </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 p-4">
         {skills.map((skills) => (
           <div

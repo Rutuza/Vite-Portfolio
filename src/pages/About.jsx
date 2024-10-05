@@ -86,7 +86,10 @@ const About = () => {
   return (
     <>
       <section className="pt-7" id="about">
-      <div className="text-4xl font-semibold  font-mate text-center">About Me</div>
+        <div>
+          <div className="text-center font-mate font-semibold text-5xl ">About Me</div>
+          <div className="text-center font-mate text-yellow-400 italic">"get to know me"</div>
+        </div>
         <div className="wrapper px-8">
           <div className="heroSection my-10 relative flex flex-wrap justify-between">
               <div className="grid grid-flow-row">

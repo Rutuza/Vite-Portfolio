@@ -51,7 +51,10 @@ const Projects = () => {
   return (
     <>
      <section className="pt-7">
-      <h1 className="text-5xl font-bold text-center font-mate">Projects</h1>
+     <div>
+        <div className="text-center font-mate font-semibold text-5xl ">Projects</div>
+        <div className="text-center font-mate text-yellow-400 italic">"what I have built"</div>
+      </div>
       
       <div className="wrapper px-8 grid grid-cols-1 mt-14 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {projects.map((project) => (
