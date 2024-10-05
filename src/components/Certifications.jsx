@@ -28,7 +28,7 @@ function Certifications() {
         </div>
         {/* dotted line */}
         <span className="text-lg font-cvt text-violet-500 absolute right-1 top-4">
-          Proof of learning and honig my skills
+          Proof of learning and honing my skills
         </span>
 
         <div className="mt-6 font-pop">

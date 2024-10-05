@@ -8,7 +8,7 @@ function Exprnce() {
       location: "Bangalore",
     },
     {
-      duration: "2018 - 2020",
+      duration: "July - Nov 2024",
       company: "Nullclass Ed Tech",
       location: "Bangalore",
     },
@@ -18,7 +18,7 @@ function Exprnce() {
     <>
       <div className="my-8 relative">
         <div className="flex justify-center items-center gap-2">
-          <h4 className="text-xl font-medium">Experience</h4>
+          <h4 className="text-xl font-medium">Internships</h4>
           <div className="w-full border-t-2 border-dotted border-gray-400 my-4"></div>
         </div>
         {/* dotted line */}

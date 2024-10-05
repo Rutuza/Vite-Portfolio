@@ -2,7 +2,7 @@ import React from "react";
 
 function KnownLanguages() {
   const languages = [
-    { language: "English", level: "Intermediate" },
+    { language: "English", level: "Advanced" },
     { language: "Hindi", level: "fluent" },
     { language: "Marathi", level: "fluent" },
   ];
